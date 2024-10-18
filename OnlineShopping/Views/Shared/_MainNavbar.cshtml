@@ -1,0 +1,238 @@
+﻿<link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.css" />
+
+@{
+    var cartCount = "0";
+    if(TempData["CartTotalCount"]!= null)
+    {
+        cartCount = TempData["CartTotalCount"].ToString();
+    }
+    // string fullName = @ViewBag.UserName;
+    // string fullName = @ViewBag.Name;
+
+    // // Split the full name into parts (first name and last name)
+    // string[] nameParts = fullName.Split(' ');
+
+    // // Get the first letter of the first name
+    // string firstLetter = nameParts.Length > 0 ? nameParts[0][0].ToString() : string.Empty;
+
+    // // Optionally, you can get the first letter of the last name as well
+    // // string lastLetter = nameParts.Length > 1 ? nameParts[1][0].ToString() : string.Empty;
+}
+<style>
+    /* Custom CSS for active link */
+    .active-link {
+        color: green !important; /* Change the color to green */
+    }
+
+    .navbar-nav .nav-link {
+        color: black; /* Change this to your desired normal link color */
+        transition: color 0.3s; /* Smooth transition for color change */
+    }
+        /* Hover state */
+        .navbar-nav .nav-link a:hover {
+            color: blue !important; /* Change this to your desired hover color */
+        }
+
+    a.nav-link.text-dark.active-link {
+        color: red !important; /* Change this to your desired active color */
+    }
+
+    .profile-icon {
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        padding: 0;
+        font-size: 16px;
+        margin-right: 5px;
+        /* overflow: right; */
+    }
+
+    .popover-body {
+        padding-right: 60px;
+        background-color: white;
+        border-radius: 2px;
+        margin-right: 5px;
+    }
+
+    .navbar .container-fluid a {
+        color: white !important;
+        font-size: 12px;
+    }
+
+    .navbar #SubMenu a {
+        color: white !important;
+        font-size: 12px;
+        line-height: 25px;
+        position: relative
+    }
+
+    .search-box {
+        border: 1px solid #ccc;
+        border-radius: 12px 0 0 12px;
+    }
+
+    .search-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .input #Search:focus {
+        outline: none !important;
+        border: 1px solid white;
+        box-shadow: 0 0 10px #719ECE;
+    }
+
+    .dropdown-item{
+        color:black!important;
+        font-weight:bold;
+    }
+
+    .MainDiv {
+       
+        width: 100%;
+        height: 2.5rem;
+       
+    }
+   /*  .ItemDiv{
+        align-self: auto;
+        flex: 1 1 auto;
+    } */
+</style>
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light  box-shadow  " style="background-color:#f85606;color:white;height:auto;">
+    <div class="row mt-2  " id="SubMenu">
+        <div class="col-sm-6 col-md-6 col-lg-12">
+            <div class="MainDiv navbar-collapse collapse  d-sm-inline-flex d-flex flex-md-row flex-column flex-wrap justify-content-evenly align-items-center ">
+                <ul class="navbar-nav d-flex flex-md-row  flex-column flex-wrap  ">
+                    <li class="nav-item d-flex flex-md-row  flex-column flex-wrap  ">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Seller" asp-action="Dashboard">Become a Seller</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Payment" asp-action="Privacy">Payments & Recharge</a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="HelpAndSupport" asp-action="Privacy">Help & Support</a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Daraz Logistics Partner</a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Product" asp-action="Create"> Product</a>
+                    </li>
+                  @*   <li class="nav-item  ">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Category" asp-action="Index"> Category</a>
+                    </li>
+                    <li class="nav-item  ">f
+                        <a class="nav-link text-dark" asp-area="" asp-controller="SubCategory" asp-action="Index"> SubCategory</a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Item" asp-action="Index"> Item</a>
+                    </li> *@
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Promotion" asp-action="Create"> Promotion</a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Review" asp-action="Create"> Review</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Employee" asp-action="Create"> Employee</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="EmployeeLeave" asp-action="Create"> Leave</a>
+                    </li>
+                   @*  <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="EmployeeTraining" asp-action="Create"> Training</a>
+                    </li>
+                   
+                   
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="EmployeeBenefitController" asp-action="Create"> Employee Benefit</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Coupons" asp-action="Create">Coupons</a>
+                    </li> *@
+                   @*  <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Coupons" asp-action="Create">Coupons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Cart" asp-action="Create">Cart</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Role" asp-action="Create">Role</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="EmployeeRole" asp-action="Create">EmployeeRole</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="ShippingAddresses" asp-action="Create">Shipping</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="NotificationSetting" asp-action="Create">NotificationSetting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Notification" asp-action="Create">Notification</a>
+                    </li> *@
+                </ul>                
+            </div>
+        </div>
+    </div>
+</nav>
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom  box-shadow mb-3" style="background-color:#f85606;color:white;">
+    <div class="container-fluid">
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+            <img style=" width: 120px;height: 48px;" src="//icms-image.slatic.net/images/ims-web/e6ac6883-1158-4663-bda4-df5a1aa066e5.png" alt="Daraz">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="search-container d-flex align-items-center justify-content-end " style="background-color:white;width: 77%;border-radius: 10px;height:38px !important;outline:none;">
+            <input type="text" id="Search" style=" border: 1px solid white;border-radius: 10px 0 0 10px;width: 100%;outline:none;height:38px !important ;flex:1;" placeholder="Search in Daraz" />
+            <div class="SearchIconDiv">
+                <i class="fa fa-search " style="color:#f85606;margin-right:10px;margin-left:12px;"></i>
+            </div>          
+        </div>
+
+        <div class="position-relative ">
+           
+                
+            
+             <a class="navbar-brand p-0 m-0" asp-area="" asp-controller="Cart" asp-action="Index">
+            <i class="fas fa-shopping-cart text-white fa-2x fs-4 w-25" ></i>
+            @if(cartCount != "0")
+            {
+                <span class="position-absolute top-1 start-0 translate-middle badge rounded-pill bg-success  " style="font-size:0.7rem!important;">
+                    @cartCount
+                <span class="visually-hidden">unread messages</span>
+            </span>
+            }
+            </a>
+           
+        </div>
+
+     @*    <i class="fas fa-shopping-cart text-white fa-2x  fs-4 w-50 ml-3">@cartCount</i> *@
+        <partial name="ProfilePanel" /> 
+    
+    </div>
+</nav>
+<script>
+    $(document).ready(function () {
+        // Add class and change color when link is clicked
+        $('nav a').click(function () {
+            // Remove 'active-link' class from all links
+            $('nav a').removeClass('active-link');
+            // Add 'active-link' class to the clicked link
+            $(this).add('active-link');
+        });
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var textBox = document.getElementById("Search");
+        textBox.addEventListener("focus", function () {
+            textBox.style.borderColor = "white";
+        });
+        textBox.addEventListener("blur", function () {
+            textBox.style.borderColor = ""; // Revert to default border color when focus is lost
+        });
+    });
+</script>

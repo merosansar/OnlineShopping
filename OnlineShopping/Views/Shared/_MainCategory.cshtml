@@ -1,0 +1,103 @@
+﻿
+<style>
+
+
+    .navbar-brand {
+        font-size: 13px;
+        color: #757575;
+    }
+
+    .category {
+        position: relative;
+    }
+
+
+    .divfab {
+        display: none; /* Hide the icon initially */
+    }
+
+    .subcategory {
+        display: none;
+        position: fixed;
+        top: 127px;
+        left: 220px; /* Position next to the menu */
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 200px; /* Adjust width as needed */
+        padding-top: initial;
+        height: 200px;
+        font-size: 13px;
+        color: #757575;
+        border-radius: 10px;
+        z-index: 1;
+    }
+
+</style>
+<div class="row">
+    <div class="col-sm-10 ">
+
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+            <i class="fas fa-female"></i> Women's Fashions
+        </a>
+       @*  <div class="subcategory" style="margin-top:0px;padding-top:0px;">
+            <div class="row">
+                <div class="col-sm-12">
+                    <a class="navbar-brand " asp-area="" asp-controller="Home" asp-action="Index"> Submenuone </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12">
+                    <a class="navbar-brand " asp-area="" asp-controller="Home" asp-action="Index"> SubmenuTwo </a>
+                </div>
+            </div>
+
+        </div> *@
+    </div>
+
+
+    <div class="col-sm-2 divfab"> <i class="fas fa-chevron-right" style="color: #f85606;"></i></div>
+</div>
+
+
+
+<script>
+    $(document).ready(function () {
+        $('.navbar-brand').hover(function () {
+            // Show subcategory and divfab on hover
+            $(this).find('.subcategory').stop(true, true).fadeIn();
+            $(this).closest('div').find('.subcategory').stop(true, true).fadeIn();
+        }, function () {
+            // Hide subcategory and divfab when mouse leaves
+            $(this).find('.subcategory').stop(true, true).fadeOut();
+            $(this).closest('div').find('.subcategory').stop(true, true).fadeOut();
+        });
+
+        $('.subcategory').hover(function () {
+            // Keep subcategory visible when hovering over it
+            $(this).stop(true, true).fadeIn();
+        }, function () {
+            // Hide subcategory when mouse leaves
+            $(this).stop(true, true).fadeOut();
+        });
+    });
+</script>
+
+
+<script>
+    $(document).ready(function () {
+        $('.navbar-brand').hover(function () {
+            // Show divfab on hover
+            $(this).closest('.row').find('.divfab').stop(true, true).fadeIn();
+            $(this).closest('.row').css('background-color', '#999');
+        }, function () {
+            // Hide divfab when mouse leaves
+            $(this).closest('.row').find('.divfab').stop(true, true).fadeOut();
+            $(this).closest('.row').css('background-color', '#f5f5f5');
+
+
+        });
+
+    });
+</script>

@@ -1,0 +1,40 @@
+﻿@{
+    string fullName = "";
+    if (TempData["FullName"] != null) { fullName = TempData["FullName"].ToString(); }
+    
+    string firstLetter = "";
+    if (fullName != null && fullName != "" )
+    {
+    // Split the full name into parts (first name and last name)
+    string[] nameParts = fullName.Split(' ');
+
+    // Get the first letter of the first name
+     firstLetter = nameParts.Length > 0 ? nameParts[0][0].ToString() : string.Empty;
+
+    // Optionally, you can get the first letter of the last name as well
+    // string lastLetter = nameParts.Length > 1 ? nameParts[1][0].ToString() : string.Empty;
+    }
+}
+
+<div class="btn-group dropend">
+    <button type="button" class="btn btn-danger rounded-circle p-0 border-white  " style="width: 50px; height: 50px; background-color: #f85606;" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <b> @firstLetter </b>
+    </button>
+    <div class="dropdown-menu  border-2 shadow-sm rounded-sm mt-3 " style=" transform: translate(-75%, 0);">
+        <a class="dropdown-item fs-6" href="#" style="color:#f85606!important;"><b>Login Panel</b></a>
+        <div class="dropdown-divider "></div>
+        <a class="dropdown-item  " asp-area="" asp-controller="User" asp-action="Login">
+            <i class="fas fa-sign-in-alt mr-2 text-info"></i><span class="text-black">Login</span>
+        </a>
+        <a class="dropdown-item" asp-area="" asp-controller="User" asp-action="Register">
+            <i class="fas fa-user-plus mr-2 text-info"></i><span class="text-black">Register</span>
+        </a>
+        <a class="dropdown-item" asp-area="" asp-controller="" asp-action="Setting">
+            <i class="fas fa-gear mr-2 text-info"></i><span class="text-black">Setting</span>
+        </a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" asp-area="" asp-controller="User" asp-action="Logout">
+            <i class="fas fa-sign-out-alt mr-2 text-info"></i><span class="text-black">Logout</span>
+        </a>
+    </div>
+</div>

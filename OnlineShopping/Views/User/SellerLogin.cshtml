@@ -1,0 +1,107 @@
+﻿@model OnlineShopping.DataAccess.Models.User
+<style>
+    a {
+        font-size: 12px;
+        color: #1a9cb7;
+        text-decoration: none;
+    }
+
+    h3 {
+        font-size: 22px;
+        color: #424242;
+        font-weight: 400;
+    }
+
+    .container {
+        padding-left: 10rem;
+        padding-right: 10rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        line-height: 2rem;
+    }
+
+    .password-container {
+        position: relative;
+    }
+
+        .password-container .toggle-password {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+
+        .password-container input {
+            padding-right: 2.5rem;
+        }
+</style>
+@using (Html.BeginForm("SellerLogin", "User", FormMethod.Post))
+{
+    <body class="bg-light ">
+        <div class="p-5 ">
+            <div class="container h-50">
+                <div class="row">
+                    <div class="col-sm-6"><h3>Welcome to Daraz ! Please Login</h3></div>
+                    <div class="col-sm-6"><span>New Member?    <a asp-area="" asp-controller="User" asp-action="SellerRegister">Register</a> Here</span></div>
+                </div>
+                <div class="row p-100 bg-white ">
+                    <div class="col-sm-12">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <label>Phone Number or Email</label><br />
+                                @Html.TextBox("Username", null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Please enter your phone number or email" })
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <label class="mb-0">Password</label>
+                                    <a asp-area="" asp-controller="Home" asp-action="Privacy" class="p-0 m-0">Forgot Password ?</a>
+                                </div>
+
+
+
+                                <div class="password-container">
+
+                                    @Html.TextBox("PasswordHash", null, new { @type = "password", @style = "width:100%;", @class = "form-control", @placeholder = "Please enter your password" })
+                                    <i class="fas fa-eye toggle-password" id="togglePassword"></i>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="row mb-3 mt-3">
+
+
+                            <div class="col-sm-12">
+
+                                <button class="btn  btn-lg" value="Login" style="background-color:#f85606;width:100%;color:white;">LOGIN</button>
+                            </div>
+
+
+                        </div>
+                       
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#togglePassword').on('click', function () {
+            // Toggle the password field type
+            const passwordField = $('input[name="Password"]');
+            const type = passwordField.attr('type') === 'password' ? 'text' : 'password';
+            passwordField.attr('type', type);
+
+            // Toggle the eye icon
+            $(this).toggleClass('fa-eye fa-eye-slash');
+        });
+    });
+</script>

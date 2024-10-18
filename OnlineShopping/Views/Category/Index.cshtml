@@ -1,0 +1,57 @@
+﻿@model IEnumerable<OnlineShopping.DataAccess.Models.Category>
+<div class="d-flex justify-content-center align-items-center vh-80 bg-light">
+    <div class="w-75 p-4 bg-white rounded shadow mt-5 mb-5 ">
+        <p class="text-end">
+
+            <a asp-action="Create" data-bs-toggle="tooltip" data-bs-placement="top" title="Create">  <i class="fas fa-plus text-primary"></i><span class="CreateLink"> Create </span> </a>
+          
+</p>
+<table class="table w-200">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th style="width:auto;">Operation</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "Edit", new { id=item.CategoryId }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.CategoryId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.CategoryId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>
+</div>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script>
+    // Initialize Bootstrap tooltips
+    document.addEventListener('DOMContentLoaded', function () {
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+    });
+</script>

@@ -1,0 +1,271 @@
+﻿@model OnlineShopping.DataAccess.Models.User
+<link href="~/daterangepicker-master/daterangepicker.css" rel="stylesheet" />
+@{
+    var verificationCode = "";
+    verificationCode = ViewBag.VerificationCode;
+    var verifycode = "";
+    if (TempData["VerificationCode"] != null)
+    {
+        verifycode = TempData["VerificationCode"].ToString();
+    }
+}
+<style>
+    .disabled {
+        pointer-events: none;
+        /*   opacity: 0.5; */
+        color: gray;
+        text-decoration: none;
+    }
+
+    .password-container {
+        position: relative;
+    }
+
+        .password-container .toggle-password {
+            position: absolute;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+
+        .password-container input {
+            padding-right: 2.5rem;
+        }
+
+    a {
+        font-size: 12px;
+        color: #1a9cb7;
+        text-decoration: none;
+    }
+
+    h3 {
+        font-size: 22px;
+        color: #424242;
+        font-weight: 400;
+    }
+
+    .container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        line-height: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+
+
+    .form-grouptext {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .form-controltext {
+        flex: 1;
+    }
+
+    .link-right {
+        margin-left: -33px;
+        text-decoration: none;
+    }
+
+        /* Optional: Add hover effect for the link */
+        .link-right:hover {
+            color: darkblue;
+        }
+</style>
+@using (Html.BeginForm("SellerRegister", "User", FormMethod.Post))
+{
+    <body class="bg-light">
+        <div class="container ">
+            <div class="row">
+                <div class="colsm-6"></div>
+                <div id="customAlert" class="alert alert-success alert-custom col-sm-6" role="alert">
+                    <i class="bi bi-check-circle"></i>
+                    @ViewBag.Message
+                </div>
+            </div>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script>
+                $(document).ready(function () {
+                    var m = '@ViewBag.Message';
+                    console.log(m);
+
+                    if (m != "" && m != '' && m != null) {
+
+                        showSuccessAlert();
+                    }
+
+                    function showSuccessAlert() {
+                        debugger;
+                        const alert = $('#customAlert');
+                        alert.show().addClass('slide-in-right');
+
+                        setTimeout(function () {
+                            alert.addClass('slide-out-right');
+                            setTimeout(function () {
+                                alert.removeClass('slide-in-right slide-out-right').hide();
+                            }, 500); // Wait for the slide-out animation to complete before hiding
+                        }, 5000); // Auto-hide after 5 seconds
+                    }
+                });
+            </script>
+            <div class="row">
+                <div class="col-sm-6"><h3>Welcome to Daraz ! Please Register</h3></div>
+                <div class="col-sm-6"><span>Already Member?    <a asp-area="" asp-controller="User" asp-action="SellerLogin">Login</a> here .  </span></div>
+            </div>
+            <div class="row p-100 bg-white pb-5">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label>PhoneNumber</label><br />
+                            @*  @Html.Hidden(verificationCode) *@
+                            @Html.TextBoxFor(m => m.Username, null, new { @style = "width:100%;", @class = "form-control ", @placeholder = "Phone Or Email", Id = "PhoneNumber" })
+                        </div>
+                        <div class="col-sm-6">
+                            <label>Store Name </label><br />
+                            @Html.TextBox("FullName", null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Please enter your Full Name" })
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 ">
+                            <label>Verification Code</label><br />
+                            <div class="form-grouptext">
+                                @Html.TextBoxFor(m => m.VerificationCode, null, new { @style = "width:100%;", @class = "form-control controltext", @placeholder = "6 digits ", @id = "VerifyCode" })
+                                <a asp-area="" asp-controller="User" asp-action="SendVerificationCode" class="link-right disabled " id="SendVerification">Send</a>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-6 pt-2">
+                            @Html.CheckBox("Accept", null, new { @class = "form-check-input ml-2" })
+                            <label class="ml-5">I have a promo code </label>
+                        </div>
+                    </div>
+                    <div class="row pb-2">
+                        <div class="col-sm-6">
+                            <label>Password</label><br />
+                            <div class="password-container">
+
+                                @Html.TextBoxFor(m => m.PasswordHash, null, new { @type = "password", @style = "width:100%;", @class = "form-control", @placeholder = "Please enter your password", Id = "Password" })
+                                <i class="fas fa-eye toggle-password" id="togglePassword"></i>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 pt-2">
+                            <button class="btn  btn-lg" value="Login" style="background-color:#f85606;width:100%;color:white;">SIGN UP</button><br />
+                            <span> I've read and understood Daraz's  </span>  <a asp-area="" asp-controller="User" asp-action="Login">Terms </a>  <span>& </span><a asp-area="" asp-controller="User" asp-action="Login">Conditions</a><br />
+                        </div>
+                    </div> 
+                   @*  <div class="row pb-2 mt-2 mb-2">
+                        <div class="col-sm-3">
+                            <label>Date Of Birth</label><br />
+                            @Html.TextBox("Dob", null, new { @style = "width:100%;", @class = "form-control", @placeholder = "date", id = "DateOfBirth" })
+
+                        </div>
+
+                        <div class="col-sm-3">
+                            <label>Gender</label><br />
+                            @Html.DropDownListFor(model => model.GenderId, Model.Genderdata, new { @class = "form-control", Id = "GenderIdDrop" })
+                        </div>
+                        <div class="col-sm-3">
+                            <span> or Sign up with </span>
+                            <button class="btn-primary  btn-lg" value="Login" style="width:100%;color:white;">  <i class="fab fa-facebook-f"></i> Facebook  </button>
+                        </div>
+                        <div class="col-sm-3">
+                            <br />
+                            <button class="btn  btn-lg btn-google p-2" value="Login" style="background-color: rgb(218, 78, 49);width:100%;color:white;"><i class="fab fa-google"></i> Google</button>
+                        </div>
+                    </div> *@
+
+                </div>
+            </div>
+        </div>
+
+
+      @*   <script src="~/daterangepicker-master/moment.min.js"></script>
+        <script src="~/daterangepicker-master/daterangepicker.js"></script>
+        <script>
+
+            // Initialize DateRangePicker for a single date
+            $('#DateOfBirth').daterangepicker({
+                singleDatePicker: true,       // Enable single date selection
+                showDropdowns: true,          // Show dropdowns for year and month
+                autoUpdateInput: true,        // Automatically update the input field
+                locale: {
+                    format: 'YYYY-MM-DD'       // Set date format
+                }
+            });
+
+
+        </script> *@
+    </body>
+
+}
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#togglePassword').on('click', function () {
+            // Toggle the password field type
+            const passwordField = $('input[name="Password"]');
+            const type = passwordField.attr('type') === 'password' ? 'text' : 'password';
+            passwordField.attr('type', type);
+
+            // Toggle the eye icon
+            $(this).toggleClass('fa-eye fa-eye-slash');
+        });
+    });
+</script>
+<script>
+
+    $(document).ready(function () {
+        // Disable the link initially
+        $('#SendVerification').addClass('disabled').attr('aria-disabled', 'true');
+
+        // Regular expression for validating Gmail ID
+        // var gmailRegex = /^[a-zA-Z0-9._%+-]+@@gmail\.com$/;
+        // or do this
+        var gmailRegex = @Html.Raw("/^[a-zA-Z0-9._%+-]+@gmail\\.com$/");
+        // Listen for changes in the PhoneNumber textbox
+        $('#PhoneNumber').on('input', function () {
+            var inputVal = $(this).val().trim();
+
+            // Check if the entered value is a valid Gmail ID
+            if (gmailRegex.test(inputVal)) {
+                // Enable the link
+                $('#SendVerification').removeClass('disabled').removeAttr('aria-disabled');
+            } else {
+                // Disable the link if the Gmail ID is not valid
+                $('#SendVerification').addClass('disabled').attr('aria-disabled', 'true');
+            }
+        });
+    });
+</script>
+<script>
+    // Handle link click to send verification code
+    $('#SendVerification').on('click', function (e) {
+        e.preventDefault(); // Prevent the default link behavior
+
+        if (!$(this).hasClass('disabled')) {
+            var email = $('#PhoneNumber').val().trim();
+
+            $.ajax({
+                url: '@Url.Action("SendVerificationCode", "User")', // Use URL helper to get the correct URL
+                type: 'POST',
+                data: { email: email },
+                success: function (response) {
+                    // Handle success, e.g., show a success message
+                    alert('Verification code sent successfully.');
+                },
+                error: function (xhr, status, error) {
+                    // Handle error, e.g., show an error message
+                    alert('Failed to send verification code.');
+                }
+            });
+        }
+    });
+</script>
+
+
+

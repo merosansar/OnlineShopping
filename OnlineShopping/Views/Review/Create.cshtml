@@ -1,0 +1,64 @@
+﻿@model OnlineShopping.DataAccess.Models.Review
+
+<style>
+
+    a {
+        font-size: 12px;
+        color: #1a9cb7;
+        text-decoration: none;
+    }
+
+    h3 {
+        font-size: 22px;
+        color: #424242;
+        font-weight: 400;
+    }
+
+    .container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+</style>
+<body class="bg-light">
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-6"><h3>Review</h3></div>
+        </div>
+        <div class="row p-100 bg-white pb-5">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <label>@Html.LabelFor(model => model.Rating)</label><br />
+                        @Html.TextBox("Rating", null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Please enter  Rating" })
+                    </div>
+                  
+                </div>
+
+                <div class="row pb-2">
+                    <div class="col-sm-12">
+
+                        <label>@Html.LabelFor(model => model.Comment)</label><br />
+                        @Html.TextBox("Comment", null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Please enter your Comment" })
+
+                    </div>
+
+                    
+
+                </div>
+              
+
+                <div class="row pb-2">
+                    <div class="col-sm-6">
+
+                        <button class="btn  btn-lg" value="save" style="background-color:#f85606;width:100%;color:white;">Save</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>

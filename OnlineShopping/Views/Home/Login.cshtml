@@ -1,0 +1,63 @@
+﻿<style>
+    a{
+        font-size:12px;
+        color: #1a9cb7;
+       text-decoration:none;
+    }
+    h3{
+        font-size:22px;
+       color: #424242;
+       font-weight:400;
+    }
+
+    .container{
+        padding-left:5rem;
+        padding-right:5rem;
+        padding-top:1rem;
+        padding-bottom: 1rem;
+
+    }
+</style>
+<body class="bg-light">
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-6"><h3>Welcome to Daraz ! Please Login</h3></div>
+            <div class="col-sm-6"><span>New Member?    <a  asp-area="" asp-controller="User" asp-action="Register">Register</a> Here</span></div>
+        </div>
+    <div class="row p-100 bg-white">
+        <div class="col-sm-6">
+            <div class="row">
+                <div class="col-sm-12">
+                    <label>Phone Number or Email</label><br />
+                    @Html.TextBox("Email", null, new { @style = "width:100%;", @class = "form-control",@placeholder="Please enter your phone number or email" })
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <label>Password</label><br />
+                        @Html.TextBox("Password", null, new { @style = "width:100%;", @class = "form-control", @placeholder ="Please enter your password"})
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <a  asp-area="" asp-controller="Home" asp-action="Privacy">Reset Your Password</a>
+                 
+                </div>
+                <div class="col-sm-6">
+                   
+                </div>
+                
+
+            </div>
+        </div>
+        <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-sm-11"><br/>
+                        <button class="btn  btn-lg" value="Login" style="background-color:#f85606;width:100%;color:white;">Login</button>
+                    </div>
+                    <div class="col-sm-1"></div>
+                </div>
+        </div>
+    </div>
+</div>
+</body>

@@ -1,0 +1,178 @@
+﻿@model OnlineShopping.Web.ViewModel.HomeViewModel
+
+<style>
+
+
+    .navbar-brand {
+        font-size: 13px;
+        color: #757575;
+    }
+
+
+
+    .divfab {
+        display: none; /* Hide the icon initially */
+    }
+
+    .divfabicon {
+        display: none; /* Hide the icon initially */
+    }
+
+    .subcategory {
+        /*  display: none; */
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: fixed;
+        top: 155px;
+        left: 13rem; /* Position next to the menu */
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 1rem;
+        /*   padding-right:8rem; */
+        width: 12rem; /* Adjust width as needed */
+        padding-top: initial;
+        height: 475px;
+        font-size: 13px;
+        color: #757575;
+        border-radius: 10px;
+        z-index: 1;
+    }
+
+    .ItemList {
+        /* display: none; */
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        top: 155px;
+        left: 25rem; /* Position next to the menu */
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 1rem;
+        width: 53rem; /* Adjust width as needed */
+        padding-top: initial;
+        height: 475px;
+        font-size: 13px;
+        color: #757575;
+        border-radius: 10px;
+        z-index: 1;
+    }
+
+</style>
+@if(Model != null)
+{
+    @if(Model.CatList!= null)
+    foreach (var item in Model.CatList)
+    {
+        <div class="row category" data-category-id="@item.Id">
+            <div class="col-sm-10">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                    <i class="fas fa-female"></i> @item.Name
+                </a>
+                <div class="subcategory " data-category-id="@item.Id" style="margin-top:0px;padding-top:0px;">
+                    @if(Model.SubCatList != null)
+                    {
+                    @foreach(var itemsubcat in Model.SubCatList.Where(a => a.CatId == item.Id))
+                    {
+                        <div class="row subcategory-item" data-subcategory-id="@itemsubcat.Id">
+                            <div class="col-sm-10">
+                                <a class="navbar-brand " asp-area="" asp-controller="Home" asp-action="Index"> @itemsubcat.Name </a>
+                                <div class="ItemList " data-subcategory-id="@itemsubcat.Id" style="margin-top:0px;padding-top:0px;">
+                                    <div class="row pt-3 pl-5">
+                                        @if (Model.Itemlist!=null)
+                                        {
+                                        @foreach (var itemList in Model.Itemlist.Where(a => a.SubCatId == itemsubcat.Id))
+                                        {
+
+
+
+                                            <div class="col-sm-3 pt-3">
+                                                <img src="~/images/t-shirt.jpg" style="border-radius:50%;height:25px;width:60px;border-block-color:blue;" /><br />
+
+                                                <a class="navbar-brand " asp-area="" asp-controller="Home" asp-action="Index"> @itemList.Name </a>
+                                            </div>
+
+                                        }
+
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 divfabicon"> <i class="fas fa-chevron-right" style="color: #f85606;"></i></div>
+                        </div>
+                    }
+                    }
+                </div>
+            </div>
+            <div class="col-sm-2 divfab"> <i class="fas fa-chevron-right" style="color: #f85606;"></i></div>
+        </div>
+    }
+    }
+}
+
+
+<script>
+
+
+    $(document).ready(function () {
+        // Create a map of subcategories to their corresponding ItemList elements
+        const subcategories = $('.subcategory').map(function () {
+            const $subcategory = $(this);
+            return {
+                element: $subcategory,
+                items: $subcategory.find('.ItemList')
+            };
+        }).get();
+
+        // Create a map of subcategory items
+        const subcategoryItems = $('.subcategory-item').map(function () {
+            const $item = $(this);
+            return {
+                element: $item,
+                items: $item.find('.ItemList')
+            };
+        }).get();
+
+        // Hover over a category to show its subcategories
+        $('.category').hover(function () {
+            $(this).find('.subcategory').show();
+            $(this).find('.divfab').show();
+
+
+
+        }, function () {
+            $(this).find('.subcategory').hide();
+            $(this).find('.divfab').hide();
+        });
+
+        // Hover over a subcategory item to show its specific ItemList
+        $('.subcategory-item').hover(function () {
+            const subcategoryId = $(this).data('subcategory-id');
+            $(this).find('.divfabicon').show();
+            subcategoryItems.forEach(item => {
+                if (item.element.data('subcategory-id') === subcategoryId) {
+                    item.items.show();
+                } else {
+                    item.items.hide();
+                }
+            });
+        }, function () {
+            $(this).find('.ItemList').hide();
+            $(this).find('.divfabicon').hide();
+        });
+
+        // Ensure subcategories and ItemLists are hidden initially
+        $('.subcategory, .ItemList').hide();
+    });
+
+
+
+
+</script>
+
+
+
+
+

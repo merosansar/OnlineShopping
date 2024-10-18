@@ -1,0 +1,257 @@
+﻿
+@model OnlineShopping.DataAccess.Models.Product  
+    <style>
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 0.4rem;
+            overflow: hidden;
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: 14rem;
+        }
+
+        .card-body {
+            padding: 1rem;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+
+
+    .product-card {
+        width: 250px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .product-image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .product-name {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .product-price {
+        font-size: 18px;
+        color: #ff5722;
+    }
+
+    .discount {
+        color: #757575;
+        font-size: 14px;
+    }
+
+    .product-rating {
+        margin-top: 10px;
+        color: #ffc107;
+    }
+
+    .stars i {
+        margin-right: 2px;
+    }
+
+    .review-count {
+        font-size: 14px;
+        color: #757575;
+    }
+
+
+    .product-card {
+        width: 250px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .product-image img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .product-name {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px 0;
+    }
+
+    .product-price {
+        font-size: 18px;
+        color: #ff5722;
+    }
+
+    .discount {
+        color: #757575;
+        font-size: 14px;
+    }
+
+    .product-rating {
+        margin-top: 10px;
+        color: #ffc107;
+    }
+
+    .stars i {
+        margin-right: 2px;
+    }
+
+    .review-count {
+        font-size: 14px;
+        color: #757575;
+    }
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container">
+    <div class="product-card">
+        <div class="product-image">
+            <img src="~/Images/@Model.ImageUrl" alt="@Model.Name" class="img-fluid" />
+        </div>
+        <div class="product-details">
+            <h4 class="product-name">@Model.Name</h4>
+            <div class="product-price">
+                <span class="price">Rs.@Model.Price</span>
+                @*   <span class="discount">-@product.Discount% Off</span> *@
+            </div>
+            <div class="product-rating">
+                @*  <span class="stars">
+                @for (int i = 0; i < product.Rating; i++)
+                {
+                <i class="fas fa-star"></i>
+                }
+                </span> *@
+                @*   <span class="review-count">(@product.ReviewCount)</span> *@
+
+                @*   <a asp-controller="Product" asp-action="ProductDetails" asp-route-id="@Model.Id" class="btn btn-primary">View Details</a> *@
+            </div>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-sm-8">  @Html.Label("Quantity") <button class="border-0 w-3" id="btnMinus"> -  </button> <span id="QuantityAmt" class="p-1 text-black">  </span> <button class="border-0  w-3" id="btnPlus"> + </button> </div>
+        </div>
+        @using (Html.BeginForm("Create", "Cart", FormMethod.Get))
+        {
+
+        <div class="row">
+            <div class="col-sm-2">
+
+          @*   <form asp-action="DeleteItem">
+                @Html.HiddenFor(model => model.Id)
+                <input type="submit" value="Delete" class="btn btn-danger" />
+                <button type="button" class="btn btn-primary">  <a asp-action="Index" class="text-white text-decoration-none fs-6">Back </a></button>
+            </form> *@
+                <a asp-controller="Product" asp-action="ProductDetails" asp-route-id="@Model.Id" class="btn btn-lg h-1 p-0 mb-2" style="background-color:rgb(0, 163, 220);color:white;width:100%;">Buy Now </a>
+            </div>
+
+       
+
+
+            <div class="col-sm-2">
+                <button type="submit" style="background-color:#f85606;color:white;width:100%;" class="btn btn-lg h-1 p-0 mb-2">Add To Cart </button>
+             @*    <a asp-controller="Cart" asp-action="Create" asp-route-id="@Model.Id" class="btn btn-lg h-1 p-0 mb-2" style="background-color:#f85606;color:white;width:100%;">Add To Cart  </a> *@
+            </div>
+
+            @Html.HiddenFor(m=>m.Quantity)
+
+            @Html.HiddenFor(m => m.Price)
+            @Html.HiddenFor(m => m.Id)
+
+
+
+
+
+          
+       
+    </div>
+    }
+    </div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var minquantity = 0;
+        var maxquantity = 15;
+        var quantity = $('#QuantityAmt').val();
+        if (quantity == '') { $('#QuantityAmt').text(0); }
+        function updateQuantity() {
+            let currentQuantity = parseInt($('#QuantityAmt').text(), 10);
+            $('#btnMinus').prop('disabled', currentQuantity <= minquantity);
+            $('#btnPlus').prop('disabled', currentQuantity >= maxquantity);
+        }
+        updateQuantity();
+        $('#btnPlus').click(function () {
+
+            var quat = $('#QuantityAmt').text();
+            if (quat != '') {
+                if (quat < maxquantity) {
+                    var Plusamount = parseInt(quat);
+                    Plusamount += 1;
+                    $('#QuantityAmt').text(Plusamount);
+                    $('#Quantity').empty();
+                    $('#Quantity').val(Plusamount);                   
+                    updateQuantity();
+                }
+
+            }
+        });
+
+        $('#btnMinus').click(function () {
+
+            var quat = $('#QuantityAmt').text();
+            if (quat != '') {
+                if (quat > minquantity) {
+                    var Minusamount = parseInt(quat);
+                    Minusamount -= 1;
+                    $('#QuantityAmt').text(Minusamount);
+                    $('#Quantity').empty();
+                    $('#Quantity').val(Minusamount);
+                    updateQuantity();
+                }
+
+            }
+        });
+
+    });
+</script>
+
+
+

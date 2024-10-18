@@ -1,0 +1,182 @@
+﻿@model OnlineShopping.DataAccess.Models.ProductDetails
+
+<style>
+
+    a {
+        font-size: 12px;
+        color: #1a9cb7;
+        text-decoration: none;
+    }
+
+    h3 {
+        font-size: 22px;
+        color: #424242;
+        font-weight: 400;
+    }
+
+    .container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+</style>
+@using (Html.BeginForm("Edit", "ProductDetail", FormMethod.Post))
+{
+    <body class="bg-light">
+        <div class="row">
+            <div class="col-sm-12 text-center "><h3><b>Add Product Details</b></h3></div>
+        </div>
+        <div class="container ">
+            <div class="row p-100 bg-white pb-5">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            @Html.HiddenFor(m => m.ProductId)
+                            @Html.LabelFor(model => model.Description)
+                            @Html.TextBoxFor(model => model.Description, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Product Description" })
+                        </div>
+                        <div class="col-sm-3">
+                            @Html.LabelFor(model => model.Specifications)
+                            @Html.TextBoxFor(model => model.Specifications, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Specifications" })
+                        </div>
+                        <div class="col-sm-3">
+                            @Html.LabelFor(model => model.Brand)
+                            @Html.TextBoxFor(model => model.Brand, new { type = "file", @class = "form-control", @placeholder = "Brand" })
+                        </div>
+                        <div class="col-sm-3  bg-primary mt-3">
+                            <img src="" alt="" class="img-fluid " />
+                        </div>
+                    </div>
+                    <div class="row pb-2 pt-2">
+                        <div class="col-sm-3">
+                            @Html.LabelFor(model => model.ProductModel)
+                            @Html.TextBoxFor(model => model.ProductModel, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Price", Id = "ProductModel" })
+                        </div>
+                        <div class="col-sm-3">
+                            @Html.LabelFor(model => model.Warranty)
+                            @Html.TextBoxFor(model => model.Warranty, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Quantity", Id = "Warranty" })
+                        </div>
+                        <div class="col-sm-3">
+                            @Html.Label("Color")
+                            @Html.TextBoxFor(model => model.Color, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Quantity", Id = "Color" })
+                        </div>
+                    </div>
+                    <div class="row pb-2 pt-2">
+                        <div class="col-sm-3">
+                            @Html.Label("Dimensions")
+                            @Html.TextBoxFor(model => model.Dimensions, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Quantity", Id = "Dimensions" })
+                        </div>
+                        <div class="col-sm-3">
+                            @Html.Label("Weight")
+                            @Html.TextBoxFor(model => model.Weight, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Quantity", Id = "Weight" })
+                        </div>
+                    </div>
+                    <div class="row pb-2">
+                        <div class="col-sm-3">
+                            <button class="btn  btn-lg" value="save" type="submit" style="background-color:#f85606;width:100%;color:white;">Save</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class=" btn btn-primary btn-lg " style="width:100%;" type="submit" value="Back to List">
+                                <a asp-action="Index" class="text-white text-decoration-none fs-6">Back to List</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+}
+
+
+@if (@Model.ProductDetailsList != null)
+
+{
+  @*   @Html.Partial("Index") *@
+    <partial name="Index" />
+ 
+}
+@*
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#CatId').change(function () {
+            debugger;
+            var catId = $(this).val();
+
+            $('#SubCatId').empty().append('<option value="">Select SubCat</option>');
+
+            if (catId) {
+                $.ajax({
+                    url: '/Product/GetList',
+                    type: 'GET',
+                    dataType: 'json',
+                    data: { Param: "SubCatData", Filter: catId },
+                    success: function (data) {
+                        $.each(data, function (index, data) {
+                            $('#SubCatId').append('<option value="' + data.value + '">' + data.text + '</option>');
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("An error occurred while fetching data: " + error);
+                    }
+                });
+            }
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    // $(document).ready(function () {
+    $('#SubCatId').change(function () {
+        debugger;
+        var SubcatId = $(this).val();
+
+        $('#ItemId').empty().append('<option value="">Select Item</option>');
+
+        if (SubcatId) {
+            $.ajax({
+                url: '/Product/GetList',
+                type: 'GET',
+                dataType: 'json',
+                data: { Param: "ItemData", Filter: SubcatId },
+                success: function (data) {
+                    $.each(data, function (index, data) {
+                        $('#ItemId').append('<option value="' + data.value + '">' + data.text + '</option>');
+                    });
+                },
+                error: function (xhr, status, error) {
+                    console.error("An error occurred while fetching data: " + error);
+                }
+            });
+        }
+    });
+    // });
+</script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#PriceId').on('input', function () {
+            var value = $(this).val();
+            // Remove any non-numeric characters except for decimal point
+            var cleanValue = value.replace(/[^0-9.]/g, '');
+            // Allow only one decimal point
+            var parts = cleanValue.split('.');
+            if (parts.length > 2) {
+                cleanValue = parts[0] + '.' + parts.slice(1).join('');
+            }
+            $(this).val(cleanValue);
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#QuantityId').on('input', function () {
+            var value = $(this).val();
+            // Remove any non-numeric characters except for decimal point
+            var cleanValue = value.replace(/[^0-9]/g, '');
+            $(this).val(cleanValue);
+        });
+    });
+</script> *@

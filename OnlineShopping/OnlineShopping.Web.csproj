@@ -1,0 +1,118 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\AccountController.cs" />
+    <Compile Remove="Controllers\AppliedCouponsController.cs" />
+    <Compile Remove="Controllers\CompensationController.cs" />
+    <Compile Remove="Controllers\CouponsController.cs" />
+    <Compile Remove="Controllers\DiscountController.cs" />
+    <Compile Remove="Controllers\EmployeeBenefitController.cs" />
+    <Compile Remove="Controllers\EmployeeController.cs" />
+    <Compile Remove="Controllers\EmployeeLeaveController.cs" />
+    <Compile Remove="Controllers\EmployeePayrollController.cs" />
+    <Compile Remove="Controllers\EmployeePerformanceController.cs" />
+    <Compile Remove="Controllers\EmployeePerformanceReviewController.cs" />
+    <Compile Remove="Controllers\EmployeeRoleController.cs" />
+    <Compile Remove="Controllers\EmployeeSalaryController.cs" />
+    <Compile Remove="Controllers\EmployeeScheduleController.cs" />
+    <Compile Remove="Controllers\EmployeeSkillController.cs" />
+    <Compile Remove="Controllers\EmployeeTrainingController.cs" />
+    <Compile Remove="Controllers\InventoryController.cs" />
+    <Compile Remove="Controllers\InvoiceItemController.cs" />
+    <Compile Remove="Controllers\InvoicePaymentController.cs" />
+    <Compile Remove="Controllers\NotificationsController.cs" />
+    <Compile Remove="Controllers\NotificationSettingController.cs" />
+    <Compile Remove="Controllers\PurchaseOrderController.cs" />
+    <Compile Remove="Controllers\PurchaseOrderItemController.cs" />
+    <Compile Remove="Controllers\ReturnsController.cs" />
+    <Compile Remove="Controllers\ReviewController.cs" />
+    <Compile Remove="Controllers\RoleController.cs" />
+    <Compile Remove="Controllers\SellerInvoiceControllercs.cs" />
+    <Compile Remove="Controllers\SellerOrderController.cs" />
+    <Compile Remove="Controllers\SellerPaymentController.cs" />
+    <Compile Remove="Controllers\SellerPayoutController.cs" />
+    <Compile Remove="Controllers\SellerProductController.cs" />
+    <Compile Remove="Controllers\SellerReviewController.cs" />
+    <Compile Remove="Controllers\SellerServiceChargeController.cs" />
+    <Compile Remove="Controllers\SellerSupportTicketController.cs" />
+    <Compile Remove="Controllers\ServiceChargeController.cs" />
+    <Compile Remove="Controllers\ShippingAddressesController.cs" />
+    <Compile Remove="Controllers\StockMovementController.cs" />
+    <Compile Remove="Controllers\SupplierController.cs" />
+    <Compile Remove="Controllers\TransactionController.cs" />
+    <Compile Remove="Controllers\WishlistItemsController.cs" />
+    <Compile Remove="Controllers\WishlistsController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="6.12.0" />
+    <PackageReference Include="MailKit" Version="4.7.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnlineShopping.Utility\OnlineShopping.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\assets\css\fonts\" />
+    <Folder Include="wwwroot\assets\css\images\" />
+    <Folder Include="wwwroot\assets\img\160x160\" />
+    <Folder Include="wwwroot\assets\img\1618x1010\" />
+    <Folder Include="wwwroot\assets\img\1920x1080\" />
+    <Folder Include="wwwroot\assets\img\1920x400\" />
+    <Folder Include="wwwroot\assets\img\400x400\" />
+    <Folder Include="wwwroot\assets\img\415x310\" />
+    <Folder Include="wwwroot\assets\img\600x200\" />
+    <Folder Include="wwwroot\assets\img\725x1080\" />
+    <Folder Include="wwwroot\assets\img\900x562\" />
+    <Folder Include="wwwroot\assets\img\documentation\" />
+    <Folder Include="wwwroot\assets\img\others\" />
+    <Folder Include="wwwroot\assets\js\" />
+    <Folder Include="wwwroot\assets\svg\brands\" />
+    <Folder Include="wwwroot\assets\svg\components\" />
+    <Folder Include="wwwroot\assets\svg\design-system-light\" />
+    <Folder Include="wwwroot\assets\svg\design-system\" />
+    <Folder Include="wwwroot\assets\svg\illustrations-light\" />
+    <Folder Include="wwwroot\assets\svg\illustrations\" />
+    <Folder Include="wwwroot\assets\svg\layouts-light\" />
+    <Folder Include="wwwroot\assets\svg\layouts\" />
+    <Folder Include="wwwroot\assets\svg\logos-light\" />
+    <Folder Include="wwwroot\assets\svg\logos\" />
+    <Folder Include="wwwroot\assets\vendor\chartjs-plugin-datalabels\dist\" />
+    <Folder Include="wwwroot\assets\vendor\flag-icon-css\flags\1x1\" />
+    <Folder Include="wwwroot\assets\vendor\icon-set\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\daterangepicker-master\.gitignore" />
+    <None Include="wwwroot\daterangepicker-master\daterangepicker.js" />
+    <None Include="wwwroot\daterangepicker-master\example\amd\main.js" />
+    <None Include="wwwroot\daterangepicker-master\example\amd\require.js" />
+    <None Include="wwwroot\daterangepicker-master\example\browserify\bundle.js" />
+    <None Include="wwwroot\daterangepicker-master\example\browserify\main.js" />
+    <None Include="wwwroot\daterangepicker-master\example\browserify\README.md" />
+    <None Include="wwwroot\daterangepicker-master\moment.min.js" />
+    <None Include="wwwroot\daterangepicker-master\package.js" />
+    <None Include="wwwroot\daterangepicker-master\README.md" />
+    <None Include="wwwroot\daterangepicker-master\website\website.js" />
+  </ItemGroup>
+
+</Project>

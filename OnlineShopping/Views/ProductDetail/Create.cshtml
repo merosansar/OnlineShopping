@@ -1,0 +1,312 @@
+﻿@model OnlineShopping.DataAccess.Models.ProductDetails
+<link href="~/daterangepicker-master/daterangepicker.css" rel="stylesheet" />
+
+<style>
+
+    a {
+        font-size: 12px;
+        color: #1a9cb7;
+        text-decoration: none;
+    }
+
+    h3 {
+        font-size: 22px;
+        color: #424242;
+        font-weight: 400;
+    }
+
+    .container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+</style>
+
+<style>
+    #Description {
+        width: 795px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+@using (Html.BeginForm("Create", "ProductDetail", FormMethod.Post))
+{
+    <body class="bg-light">
+        <div class="row">
+            <div class="col-sm-12 text-center "><h3><b>Add Product Details</b></h3></div>
+        </div>
+        <div class="container ">
+            <div class="row p-100 bg-white pb-5">
+                <div class="col-sm-12">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            @Html.HiddenFor(m=>m.ProductId)
+                            <b>@Html.LabelFor(model => model.Description)</b>
+                         
+                            @Html.TextBoxFor(model => model.Description, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Product Description" })
+                        </div>
+                        <script type="importmap">
+                            {
+                                "imports": {
+                                    "ckeditor5": "../../assets/vendor/ckeditor5.js",
+                                    "ckeditor5/": "../../assets/vendor/"
+                                }
+                            }
+                        </script>
+                        <script type="module">
+                            import {
+                                ClassicEditor,
+                                Essentials,
+                                Paragraph,
+                                Bold,
+                                Italic,
+                                Font,
+                                List
+                            }
+                            from 'ckeditor5';
+
+                            ClassicEditor
+                                .create(document.querySelector('#Description'), {
+                                    plugins: [Essentials, Paragraph, Bold, Italic, Font,List],
+                                    toolbar: [
+                                        'undo', 'redo', '|', 'bold', 'italic', '|',
+                                        'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor', 'bulletedList'
+                                    ]
+                                })
+                                .then(editor => {
+                                    window.editor = editor;
+                                })
+                                .catch(error => {
+                                    console.error(error);
+                                });
+                        </script>
+                        
+                    </div>
+                    <div class="row pb-2 pt-2">
+                        <div class="col-sm-3">
+                            @Html.LabelFor(model => model.Specifications)
+                            @Html.TextBoxFor(model => model.Specifications, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Specifications" })
+                        </div>
+                        <div class="col-sm-3">
+                            @Html.LabelFor(model => model.Brand)
+                            @Html.DropDownListFor(model => model.Brand, Model.BrandList, new { @class = "form-control", Id = "BrandId" })
+
+                        </div>
+                        <div class="col-sm-3  mt-3">
+                            <img src="" alt="" class="img-fluid " />
+                    </div>
+                    <div class="row pb-2 pt-2">
+                        <div class="col-sm-3">
+                            @Html.LabelFor(model => model.ProductModel)
+                            @Html.TextBoxFor(model => model.ProductModel, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "ProductModel", Id = "ProductModel" })
+                        </div>
+                        <div class="col-sm-3">
+                            @Html.LabelFor(model => model.Warranty)
+                            @Html.TextBoxFor(model => model.Warranty, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Warranty", Id = "Warranty" })
+                        </div>
+                        <div class="col-sm-3">
+                            @Html.Label("Color")
+                            @Html.DropDownListFor(model => model.Color, Model.ColorList, new { @class = "form-control", Id = "ColorId" })
+                            @* @Html.TextBoxFor(model => model.Color, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Color", Id = "Color" }) *@
+                        </div>
+                    </div>
+                    <div class="row pb-2 pt-2">
+                        <div class="col-sm-9">
+                            @Html.Label("Dimensions")
+                            <div class="row">
+                                <div class="col-sm-4"> @Html.TextBoxFor(model => model.Dimensions, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "width cm", Id = "Width" })</div>
+                                <div class="col-sm-4">@Html.TextBoxFor(model => model.Dimensions, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Length cm", Id = "Length" })</div>
+                                <div class="col-sm-4">@Html.TextBoxFor(model => model.Dimensions, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Height", Id = "Height" })</div>                           
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            @Html.Label("Weight")
+                            @Html.TextBoxFor(model => model.Weight, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Weight", Id = "ProductWeight" })
+                        </div>
+
+
+                            <div class="col-sm-3">
+                                @Html.Label("Promotion")
+                               @*  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">button</button>
+ *@                                @Html.TextBox("Promotion",null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Weight", Id = "Promotiondiv" })
+                            </div>
+                    </div>
+                    <div class="row pb-2 pt-5">
+                        <div class="col-sm-3">
+                            <button class="btn  btn-lg" value="save" type="submit" style="background-color:#f85606;width:100%;color:white;">Save</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <button class=" btn btn-primary btn-lg " style="width:100%;" type="submit" value="Back to List">
+                                <a asp-action="Index" class="text-white text-decoration-none fs-6">Back to List</a>
+                            </button>
+
+                           
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+      
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Special Price</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Special Price:</label>
+
+                            @Html.TextBoxFor(m => m.SpecialPrice, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "SpecialPrice", Id = "SpecialPriceAmt" })
+                          @*   <input type="text" class="form-control" id="recipient-name"> *@
+                        </div>
+                        <div class="mb-3">
+                            <label for="PromotionDate" class="col-form-label">Promotion Date:</label>
+
+                            @Html.TextBox("PromotionDateRange", null, new { @style = "width:100%;", @class = "form-control", @placeholder = "PromotionDate", Id = "PromotionDate" })
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="~/daterangepicker-master/moment.min.js"></script>
+        <script src="~/daterangepicker-master/daterangepicker.js"></script>
+       
+      
+    
+        <script type="text/javascript">
+            $(document).ready(function () {
+                // Initialize DateRangePicker
+                $('#PromotionDate').daterangepicker({
+                    // Your options here
+                    opens: 'left'
+                    
+                });
+
+                // Show modal on button click
+                $('#Promotiondiv').on('click', function () {
+                    var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+                    myModal.show();
+                });
+            });
+        </script>
+
+
+
+    </body>
+  
+}
+
+
+
+@if (Model.ProductDetailsList != null)
+{
+@if(Model.ProductDetailsList.Count()>0)
+
+{
+  
+    <partial name="Index"  />
+}
+}
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#ProductWeight').on('input', function () {
+            var value = $(this).val();
+            // Remove any non-numeric characters except for decimal point
+            var cleanValue = value.replace(/[^0-9.]/g, '');
+            // Allow only one decimal point
+            var parts = cleanValue.split('.');
+            if (parts.length > 2) {
+                cleanValue = parts[0] + '.' + parts.slice(1).join('');
+            }
+            $(this).val(cleanValue);
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#Length').on('input', function () {
+            var value = $(this).val();
+            // Remove any non-numeric characters except for decimal point
+            var cleanValue = value.replace(/[^0-9.]/g, '');
+            // Allow only one decimal point
+            var parts = cleanValue.split('.');
+            if (parts.length > 2) {
+                cleanValue = parts[0] + '.' + parts.slice(1).join('');
+            }
+            $(this).val(cleanValue);
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#Width').on('input', function () {
+            var value = $(this).val();
+            // Remove any non-numeric characters except for decimal point
+            var cleanValue = value.replace(/[^0-9.]/g, '');
+            // Allow only one decimal point
+            var parts = cleanValue.split('.');
+            if (parts.length > 2) {
+                cleanValue = parts[0] + '.' + parts.slice(1).join('');
+            }
+            $(this).val(cleanValue);
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#Height').on('input', function () {
+            var value = $(this).val();
+            // Remove any non-numeric characters except for decimal point
+            var cleanValue = value.replace(/[^0-9.]/g, '');
+            // Allow only one decimal point
+            var parts = cleanValue.split('.');
+            if (parts.length > 2) {
+                cleanValue = parts[0] + '.' + parts.slice(1).join('');
+            }
+            $(this).val(cleanValue);
+        });
+    });
+</script>
+<script type="text/javascript">
+
+    document.getElementById('Promotiondiv').addEventListener('click', function () {
+        var myModal = new bootstrap.Modal(document.getElementById('exampleModal'));
+        myModal.show();
+    });
+
+</script>
+<script>
+    $('#PromotionDate').daterangepicker();
+</script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#SpecialPriceAmt').on('input', function () {
+            var value = $(this).val();
+            // Remove any non-numeric characters except for decimal point
+            var cleanValue = value.replace(/[^0-9.]/g, '');
+            // Allow only one decimal point
+            var parts = cleanValue.split('.');
+            if (parts.length > 2) {
+                cleanValue = parts[0] + '.' + parts.slice(1).join('');
+            }
+            $(this).val(cleanValue);
+        });
+    });
+</script>

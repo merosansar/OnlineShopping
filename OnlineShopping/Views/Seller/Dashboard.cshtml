@@ -1,0 +1,402 @@
+﻿@model   List< OnlineShopping.DataAccess.Models.DashboardModel>
+@{
+    Layout = "~/Views/Shared/_LayoutSeller.cshtml";
+    var totalUserCount = 0;
+    var AdminUserCount = 0;
+    var SellerUserCount = 0;
+    var userCount = 0;
+    if(Model!=null & Model.Count()!= 0){
+        totalUserCount = Model.Where(a => a.Description == "TotalUser").ToList().FirstOrDefault().TotalCount;
+        AdminUserCount = Model.Where(a => a.Description == "TotalAdmin").ToList().FirstOrDefault().TotalCount;
+        SellerUserCount = Model.Where(a => a.Description == "Totalseller").ToList().FirstOrDefault().TotalCount;
+        userCount = Model.Where(a => a.Description == "TotalCustomer").ToList().FirstOrDefault().TotalCount;
+    }
+
+}
+
+
+
+<style>
+    .cardcss {
+        border-radius: 0;
+        background-color: #f85606;
+        color: white
+    }
+
+        .cardcss h4 {
+            color: antiquewhite
+        }
+
+    .table-striped {
+        background-color: #f85606;
+    }
+
+        .table-striped td {
+            color: white
+        }
+
+    .boxshadow {
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        border-radius: 0
+    }
+
+    .nav-link.changebgs.active {
+        background-color: #f85606;
+        color: white;
+    }
+
+        .nav-link.changebgs.active:hover {
+            background-color: #f85606;
+            color: white;
+        }
+
+    .nav-link.changebgs {
+        border: 1px solid #f85606;
+    }
+
+    .changelinecolor {
+        color: #f85606;
+    }
+</style>
+<div class="container-xxl p-2" style="background:#F9FAFC">
+    <div class="row mb-3">
+        <div class="col-md-12">
+            <div class="card cardcss h-100 p-2">
+                <p class="text-center">Welcome ! Complete your to do list. </p>
+                <h4 class="text-center">001</h4>
+            </div>
+        </div>
+        @*  <div class="col-md-4">
+        <div class="card cardcss h-100 p-2">
+        <p class="text-center">Convert TXN Status Post to UnPaid</p>
+        <h4 class="text-center">001</h4>
+        </div>
+        </div>
+        <div class="col-md-4">
+        <div class="card cardcss h-100 p-2">
+        <p class="text-center">Search By Ref NO</p>
+        <h4 class="text-center">001</h4>
+        </div>
+        </div> *@
+    </div>
+    <div class="row mb-3">
+        <div class="col-md-8">
+            <div class="card p-2 h-100" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius:0">
+                <canvas id="transactionChart" height="120"></canvas>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card boxshadow h-100 p-2">
+                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link changebgs active" id="pills-TransactionList-tab" data-bs-toggle="pill" data-bs-target="#pills-TransactionList" type="button" role="tab" aria-controls="pills-TransactionList" aria-selected="true">Transaction List</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link changebgs" id="pills-UtilityPayment-tab" data-bs-toggle="pill" data-bs-target="#pills-UtilityPayment" type="button" role="tab" aria-controls="pills-UtilityPayment" aria-selected="false">Utility Payment</button>
+                    </li>
+                </ul>
+                <hr class="my-2 changelinecolor" />
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-TransactionList" role="tabpanel" aria-labelledby="pills-TransactionList-tab">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="card cardcss h-100 p-2">
+                                    <p class="text-center"> <a asp-action="Index" asp-controller="Order"> <span class="text-white">  Total Order</span> </a>   </p>
+                                    <h4 class="text-center">@Model.Where(a => a.Description == "TotalOrder").ToList().FirstOrDefault().TotalCount</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card cardcss h-100 p-2">
+                                    <p class="text-center"><a><span class="text-white">Approved Order</span></a></p>
+                                    <h4 class="text-center">@Model.ToList().Where(a => a.Description == "ApprovedOrders").FirstOrDefault().TotalCount</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card cardcss h-100 p-2">
+                                    <p class="text-center"><a><span class="text-white">Unapproved Order</span>  </a></p>
+                                    <h4 class="text-center">@Model.ToList().Where(a => a.Description == "UnApprovedOrders").FirstOrDefault().TotalCount</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card cardcss h-100 p-2">
+                                    <p class="text-center"><a asp-action="Index" asp-controller="Product"><span class="text-white"> Total Product</span></a></></p>
+                                    <h4 class="text-center"> @Model.ToList().Where(a => a.Description == "TotalProduct").FirstOrDefault().TotalCount</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card cardcss h-100 p-2">
+                                    <p class="text-center"><a asp-action="Index" asp-controller="Category"><span class="text-white">Total Category</span> </a>  </p>
+                                    <h4 class="text-center">@Model.ToList().Where(a => a.Description == "TotalCategory").FirstOrDefault().TotalCount</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card cardcss h-100 p-2">
+                                    <p class="text-center">Cancelled Orders</p>
+                                    <h4 class="text-center">@Model.ToList().Where(a => a.Description == "CancelledOrders").FirstOrDefault().TotalCount</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="pills-UtilityPayment" role="tabpanel" aria-labelledby="pills-UtilityPayment-tab">
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <div class="card cardcss h-100 p-2">
+                                    <p class="text-center">Mobile Top Up</p>
+                                    <h4 class="text-center">001</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card cardcss h-100 p-2">
+                                    <p class="text-center">Bill Payment</p>
+                                    <h4 class="text-center">001</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card cardcss h-100 p-2">
+                                    <p class="text-center">Internet Payment</p>
+                                    <h4 class="text-center">001</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card cardcss h-100 p-2">
+                                    <p class="text-center">TV Payment</p>
+                                    <h4 class="text-center">001</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card cardcss h-100 p-2">
+                                    <p class="text-center">Travel Tickets</p>
+                                    <h4 class="text-center">001</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="card cardcss h-100 p-2">
+                                    <p class="text-center">Insurance</p>
+                                    <h4 class="text-center">001</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-md-5">
+            <div class="card boxshadow h-100 p-2">
+                <p>Daily Activities Report</p>
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td>Send txn</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Paid txn</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Wallet Payment</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>COOP Deposit</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Cash Txn</td>
+                            <td>15</td>
+                        <tr>
+                            <td>Account Deposit</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td>Utility Payment</td>
+                            <td>15</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card boxshadow p-2">
+                <h4 class="text-center">Users</h4>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card cardcss boxshadow h-100 p-2">
+                            <p class="text-center">Total Users</p>
+                            <h4 class="text-center">@Model.ToList().Where(a => a.Description == "TotalUser").FirstOrDefault().TotalCount </h4>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card cardcss boxshadow h-100 p-2">
+                            <p class="text-center">Admin Users</p>
+                            <h4 class="text-center">@Model.ToList().Where(a => a.Description == "TotalAdmin").FirstOrDefault().TotalCount</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="card cardcss boxshadow h-100 p-2">
+                            <p class="text-center">Seller Users</p>
+                            <h4 class="text-center">@Model.ToList().Where(a => a.Description == "Totalseller").FirstOrDefault().TotalCount</h4>
+                        </div>
+                    </div>
+                   @*  <div class="col-md-12">
+                        <div class="card cardcss boxshadow h-100 p-2">
+                            <p class="text-center">Unapproved Users</p>
+                            <h4 class="text-center">001</h4>
+                        </div>
+                    </div> *@
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card h-100" style="box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; border-radius:0;">
+                <div style="font-size:22px;" class="p-2">Users Pie Chart</div>
+                <div class="w-100" id="UserChart"></div>
+                <div class="mt-5 text-center" style="white-space: nowrap;">
+                    <div style="display: inline-block;">
+                        <div style="background-color:#B55306; height:15px; width:15px;"></div>
+                    </div>
+                    <div style="display: inline-block; margin-left: 10px;">User</div>
+                    <div style="display: inline-block; margin-left: 10px;">
+                        <div style="background-color:#4D002A; height:15px; width:15px;"></div>
+                    </div>
+                    <div style="display: inline-block; margin-left: 10px;">Admin</div>
+                    <div style="display: inline-block; margin-left: 10px;">
+                        <div style="background-color:#5D9713; height:15px; width:15px;"></div>
+                    </div>
+                    <div style="display: inline-block; margin-left: 10px;">Seller</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+
+<script>
+    const tValues = ["Week 1", "Week 2", "Week 3", "Week 4"];
+
+    new Chart("transactionChart", {
+        type: "line",
+        data: {
+            labels: tValues,
+            datasets: [{
+                data: [860, 1140, 1060, 1060],
+                borderColor: "red",
+                fill: false,
+            }, {
+                data: [1600, 1700, 1700, 1900],
+                borderColor: "green",
+                fill: false
+            }, {
+                data: [300, 700, 2000, 5000],
+                borderColor: "blue",
+                fill: false
+            }, {
+                data: [100, 700, 170, 900],
+                borderColor: "black",
+                fill: false
+            }, {
+                data: [300, 70, 200, 500],
+                borderColor: "pink",
+                fill: false
+            }, {
+                data: [1000, 700, 170, 990],
+                borderColor: "gray",
+                fill: false
+            }]
+        },
+        options: {
+            legend: { display: false },
+            title: {
+                display: true,
+                text: "Transaction List"
+            }
+        }
+    });
+</script>
+<script>
+    (function () {
+        let cardColor, headingColor, axisColor, shadeColor, borderColor;
+
+        const labels = ["User", "Admin", "Seller"]
+
+        const series = [@userCount, @AdminUserCount, @SellerUserCount];
+
+        const getRandomColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+        const colors = ["#B55306", "#4D002A", "#5D9713"]
+
+        const chartOrderStatistics = document.querySelector('#UserChart'),
+            orderChartConfig = {
+                chart: {
+                    height: 245,
+                    width: 300,
+                    type: 'donut'
+                },
+                labels: labels,
+                series: series,
+                colors: colors,
+                stroke: {
+                    width: 5,
+                    colors: cardColor
+                },
+                dataLabels: {
+                    enabled: false,
+                    formatter: function (val, opt) {
+                        return parseInt(val);
+                    }
+                },
+                legend: {
+                    show: false
+                },
+                grid: {
+                    padding: {
+                        top: 0,
+                        bottom: 0,
+                        right: 15
+                    }
+                },
+                plotOptions: {
+                    pie: {
+                        donut: {
+                            size: '75%',
+                            labels: {
+                                show: series,
+                                value: {
+                                    fontSize: '0.8rem',
+                                    fontFamily: 'Public Sans',
+                                    color: headingColor,
+                                    offsetY: -15,
+                                    formatter: function (val) {
+                                        return parseInt(val);
+                                    }
+                                },
+                                name: {
+                                    offsetY: 20,
+                                    fontFamily: 'Public Sans'
+                                },
+                                total: {
+                                    show: true,
+                                    fontSize: '0.8125rem',
+                                    color: axisColor,
+                                }
+                            }
+                        }
+                    }
+                }
+            };
+
+        if (typeof chartOrderStatistics !== 'undefined' && chartOrderStatistics !== null) {
+            const statisticsChart = new ApexCharts(chartOrderStatistics, orderChartConfig);
+            statisticsChart.render();
+        }
+
+    })();
+</script>

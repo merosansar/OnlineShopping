@@ -1,0 +1,222 @@
+﻿@model OnlineShopping.DataAccess.Models.Product
+
+<style>
+
+    a {
+        font-size: 12px;
+        color: #1a9cb7;
+        text-decoration: none;
+    }
+
+    h3 {
+        font-size: 22px;
+        color: #424242;
+        font-weight: 400;
+       
+    }
+
+    .container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+</style>
+  @using(Html.BeginForm("Create", "Product", FormMethod.Post))
+    {
+<body class="bg-light">
+    <div class="row ">
+        <div class="col-sm-12 text-center "><h3><b>Add Product</b></h3></div>
+    </div>
+    <div class="container ">        
+        <div class="row p-100 bg-white pb-5">
+            <div class="col-sm-12">
+                <div class="row">
+                        <div class="col-sm-12">
+                            @Html.LabelFor(model => model.Description)
+                            @Html.TextBoxFor(model => model.Description, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Description" })
+                            <script type="importmap">
+                                {
+                                    "imports": {
+                                        "ckeditor5": "../../assets/vendor/ckeditor5.js",
+                                        "ckeditor5/": "../../assets/vendor/"
+                                    }
+                                }
+                            </script>
+                            <script type="module">
+                                import {
+                                    ClassicEditor,
+                                    Essentials,
+                                    Paragraph,
+                                    Bold,
+                                    Italic,
+                                    Font,
+                                    List
+                                }
+                                    from 'ckeditor5';
+
+                                ClassicEditor
+                                    .create(document.querySelector('#Description'), {
+                                        plugins: [Essentials, Paragraph, Bold, Italic, Font, List],
+                                        toolbar: [
+                                            'undo', 'redo', '|', 'bold', 'italic', '|',
+                                            'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor', 'bulletedList'
+                                        ]
+                                    })
+                                    .then(editor => {
+                                        window.editor = editor;
+
+
+                                        editor.model.document.on('change:data', () => {
+                                            document.querySelector('#Description').value = editor.getData();
+                                        });
+                                    })
+                                    .catch(error => {
+                                        console.error(error);
+                                    });
+                            </script>
+
+                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                       @Html.LabelFor(model => model.Name)
+                        @Html.TextBoxFor(model => model.Name, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "ProductName" })
+                    </div>
+                  
+                    <div class="col-sm-3">
+                        @Html.LabelFor(model => model.ImageUrl)
+                        @Html.TextBoxFor(model => model.ImageUrl, new { type = "file", @class = "form-control", @placeholder = "ImageUrl" })
+                    </div>
+                    <div class="col-sm-3  bg-primary mt-3">                        
+                        <img src="" alt="" class="img-fluid " />
+                    </div>
+                </div>
+                <div class="row pb-2 pt-2">
+                    <div class="col-sm-3">
+                       @Html.LabelFor(model => model.Price)
+                        @Html.TextBoxFor(model => model.Price, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Price", Id = "PriceId" })
+                    </div>
+                    <div class="col-sm-3">
+                        @Html.LabelFor(model => model.Quantity)
+                        @Html.TextBoxFor(model => model.Quantity, null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Quantity", Id = "QuantityId" })
+                    </div>
+                    <div class="col-sm-3">                  
+                       
+                        @Html.Label("Category")
+                        @Html.DropDownListFor(model=>model.CategoryId,Model.CategoryList,  new { @class = "form-control",Id="CatId" })
+    
+                    </div>                  
+                   
+                </div>
+                <div class="row pb-2 pt-2">
+                    <div class="col-sm-3">
+                        @Html.Label("SubCategory")
+                        @Html.DropDownListFor(model => model.SubCatId, Model.SubCcategoryList, new { @class = "form-control", Id = "SubCatID" })
+                    </div>
+                    <div class="col-sm-3">
+                        @Html.Label("Item")
+                        @Html.DropDownListFor(model =>model.ItemId, Model.ItemList, new { @class = "form-control", Id = "ItemId" })
+                    </div>
+                </div>
+                <div class="row pb-2">
+                    <div class="col-sm-3">
+                        <button class="btn  btn-lg" value="save" type="submit" style="background-color:#f85606;width:100%;color:white;">Save</button>
+                    </div>
+                    <div class="col-sm-3">
+
+                        <button class=" btn btn-primary btn-lg " style="width:100%;" type="submit" value="Back to List">
+                            <a asp-action="Index" class="text-white text-decoration-none fs-6">Back to List</a>
+
+
+                        </button>
+                </div>         
+
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+}
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#CatId').change(function () {
+        
+            var catId = $(this).val();
+            $('#SubCatID').empty();
+            if (catId) {
+                $.ajax({
+                    url: '/Product/GetList',
+                    type: 'GET',
+                    dataType: 'json',
+                    data: { Param: "SubCatData", Filter: catId },
+                    success: function (data) {
+                        $.each(data, function (index, data) {
+                            $('#SubCatID').append('<option value="' + data.value + '">' + data.text + '</option>');
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("An error occurred while fetching data: " + error);
+                    }
+                });
+            }
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    // $(document).ready(function () {
+    $('#SubCatID').change(function () {           
+            var SubcatId = $(this).val();
+            $('#ItemId').empty();
+        if (SubcatId) {
+                $.ajax({
+                    url: '/Product/GetList',
+                    type: 'GET',
+                    dataType: 'json',
+                    data: { Param: "ItemData", Filter: SubcatId },
+                    success: function (data) {
+                        $.each(data, function (index, data) {
+                            $('#ItemId').append('<option value="' + data.value + '">' + data.text + '</option>');
+                        });
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("An error occurred while fetching data: " + error);
+                    }
+                });
+            }
+        });
+    // });
+</script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#PriceId').on('input', function () {
+            var value = $(this).val();
+            // Remove any non-numeric characters except for decimal point
+            var cleanValue = value.replace(/[^0-9.]/g, '');
+            // Allow only one decimal point
+            var parts = cleanValue.split('.');
+            if (parts.length > 2) {
+                cleanValue = parts[0] + '.' + parts.slice(1).join('');
+            }
+            $(this).val(cleanValue);
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#QuantityId').on('input', function () {
+            var value = $(this).val();
+            // Remove any non-numeric characters except for decimal point
+            var cleanValue = value.replace(/[^0-9]/g, '');            
+            $(this).val(cleanValue);
+        });
+    });
+</script>

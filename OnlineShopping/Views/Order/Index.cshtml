@@ -1,0 +1,91 @@
+﻿@model IEnumerable<OnlineShopping.DataAccess.Models.OrderDetailResult>
+@{
+    var i = 0;
+    var j = 1;
+    decimal TotalAmount = 0;
+
+}
+<div class="shadow p-2 m-2 pt-5">
+@if (Model != null)
+{
+   
+           
+           
+            <fieldset class="border p-4 " >
+                <div class="d-flex justify-content-center">
+                <legend class="w-auto darazfontcolor pt-0"><b>ORDER DETAILS </b></legend>
+                </div>
+            
+
+
+            <div class="d-flex flex-direction-row justify-content-start h-100 pt-4">
+                <div class="col-sm-1"><span class="darazfontcolor"><b> Sno</b> </span></div>
+                <div class="col-sm-4"><span class="darazfontcolor"><b>ProductName </b> </span> </div>
+                <div class="col-sm-1"><span class="darazfontcolor"><b>Quantity</b></span></div>
+                <div class="col-sm-3"><span class="darazfontcolor"><b>Price</b> </span> </div>
+                <div class="col-sm-2">
+                    <span class="darazfontcolor"><b>TotalAmount </b> </span>
+
+        </div>
+                <div class="col-sm-2">
+                    <span class="pr-2 darazfontcolor">
+                        <b>   IsApproved</b>
+                    </span>
+                </div>
+            </div>
+            <div class="dropdown-divider "></div>
+            @foreach (var item in Model.ToList())
+            {
+                TotalAmount = TotalAmount + item.TotalAmount;
+            <div class="d-flex flex-direction-row justify-content-start h-100">
+                    <div class="col-sm-1"><span class=" darazfontcolor"></span>@j  </div>
+                    <div class="col-sm-4"><span class=" darazfontcolor"> </span> @item.ProductName</div>
+                    <div class="col-sm-1"><span class=" darazfontcolor"></span> @item.Quantity</div>
+                    <div class="col-sm-3"><span class=" darazfontcolor"></span> @item.Price</div>
+                    <div class="col-sm-2"><span class=" darazfontcolor"> </span>@item.TotalAmount</div>
+                    <div class="col-sm-2"><span class=" darazfontcolor">
+                            @Html.CheckBoxFor(m =>Model.ToList()[i].IsApproved, new { @class = "item-checkbox"})</span>
+                            </div>
+                </div>
+                i++;
+                j++;
+            }
+            <div class="dropdown-divider "></div>  @using (Html.BeginForm("ApproveOrder", "Order", FormMethod.Post, new { id = "orderForm" }))
+            {
+            <div class="d-flex flex-direction-row justify-content-end h-100 pt-3">
+                <div class="col-sm-9 col-lg-9 col-md-9 w-100 d-flex flex-direction-row justify-content-end "><span style="color:orangered;"><b>Total OrderAmount</b></span> </div>
+                <div class="col-sm-2 col-lg-2 col-md-2 w-100   "> <b>@TotalAmount</b></div>
+              
+                      <div class="col-sm-1 col-lg-1  col-md-1 pl-3"><span class="darazfontcolor">@Html.CheckBox("SelectAll")<span class=" darazfontcolor pl-4 fs-6"> <b>Select All </b> </span> </span></div>
+              
+                    </div>
+            }
+        </fieldset>
+           
+}
+  @*   <div class="d-flex flex-direction-row justify-content-end pb-5 pt-3"><span style="color:orangered;">Total OrderAmount  :@TotalAmount</span></div> *@
+</div>
+
+<script>
+    $(document).ready(function () {
+        // Handle the change event of the 'Select All' checkbox
+        $('#SelectAll').on('change', function () {
+            // Get the checked status of the 'Select All' checkbox
+            var isChecked = $(this).prop('checked');
+
+            // Set all checkboxes with the class 'item-checkbox' to the same checked status
+            // $('.item-checkbox').each(function () {
+            //     $(this).prop('checked', isChecked);
+            // });
+
+
+            $('.item-checkbox').map(function () {
+                $(this).prop('checked', isChecked);
+            });
+
+            if (isChecked) {
+                $('#orderForm').submit();
+            }
+        });
+    });
+</script>

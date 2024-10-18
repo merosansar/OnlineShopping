@@ -1,0 +1,99 @@
+﻿@* @model  OnlineShopping.DataAccess.Models.Promotion
+
+
+
+<style>
+
+    a {
+        font-size: 12px;
+        color: #1a9cb7;
+        text-decoration: none;
+    }
+
+    h3 {
+        font-size: 22px;
+        color: #424242;
+        font-weight: 400;
+    }
+
+    .container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+</style>
+<body class="bg-light">
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-6"><h3>Add Product</h3></div>
+        </div>
+        <div class="row p-100 bg-white pb-5">
+            <div class="col-sm-12">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <label>@Html.Label("Special Price")</label><br />
+                        @Html.TextBox("PromoCode", null, new { @style = "width:100%;", @class = "form-control", @placeholder = "Special Price" })
+                    </div>
+                    <div class="col-sm-6">
+                        <label>@Html.LabelFor(model => model.DiscountPercentage)</label><br />
+                        @Html.TextBox("PromotionDate", null, new { @style = "width:100%;", @class = "form-control", @placeholder = "DiscountPercentage" })
+                    </div>
+                </div>
+
+                <div class="row pb-2">
+                    <div class="col-sm-6">
+
+                        <label>@Html.LabelFor(model => model.ValidFrom)</label><br />
+                        @Html.TextBox("ValidFrom", null, new { @style = "width:100%;", @class = "form-control", @placeholder = "ValidFrom" })
+
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label>@Html.LabelFor(model => model.ValidTo)</label><br />
+                        @Html.TextBox("ValidTo", null, new { @style = "width:100%;", @class = "form-control", @placeholder = "ValidTo" })
+                    </div>
+
+                </div>
+              
+
+                <div class="row pb-2">
+                    <div class="col-sm-6">
+
+                        <button class="btn  btn-lg" value="save" style="background-color:#f85606;width:100%;color:white;">Save</button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body> *@
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">New message</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="recipient-name" class="col-form-label">Recipient:</label>
+                        <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Message:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+        </div>
+    </div>
+</div>

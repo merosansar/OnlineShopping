@@ -1,0 +1,382 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    .footerLabel {
+        color: #f85606;
+        font-size: 20px;
+    }
+
+    footer {
+        position: absolute;
+        width: 100%;
+    }
+
+    .custom-e-sewa-icon {
+        background-color: white;
+        display: inline-block;
+        position: relative;
+        border: aliceblue;
+        border: solid 0.2px #696969;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 4px;
+        /* box-shadow: 20px 20px 10px grey; */
+    }
+
+        .custom-e-sewa-icon .fa-cc-esewa::before {
+            color: green;
+            content: 'e sewa';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: Georgia;
+            font-size: 0.8rem; /* Adjust size as needed */
+            font-weight: bold;
+        }
+
+    .custom-ime-pay-icon {
+        background-color: white;
+        display: inline-block;
+        position: relative;
+        border: aliceblue;
+        border: solid 0.2px #696969;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 4px;
+        /* box-shadow: 20px 20px 10px grey; */
+    }
+
+        .custom-ime-pay-icon .fa-cc-imepay::before {
+            color: red;
+            content: 'IME PAY';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: Georgia;
+            font-size: 0.8rem; /* Adjust size as needed */
+            font-weight: bold;
+        }
+
+
+
+    .custom-visa-icon {
+        background-color: white;
+        display: inline-block;
+        position: relative;
+        border: aliceblue;
+        border: solid 0.2px #696969;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 4px;
+        /* box-shadow: 20px 20px 10px grey; */
+    }
+
+        .custom-visa-icon .fa-cc-visa::before {
+            color: black;
+            content: 'VISA';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: Georgia;
+            font-size: 0.8rem; /* Adjust size as needed */
+            font-weight: bold;
+        }
+
+        .custom-visa-icon .fa-cc-mastercard::before {
+            color: lightcoral;
+            /*  content: 'Master'; */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            */ font-family: Georgia;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+    .custom-cash-icon {
+        background-color: white;
+        display: inline-block;
+        position: relative;
+        border: aliceblue;
+        border: solid 0.2px #696969;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        border-radius: 4px;
+        /*  box-shadow: 20px 20px 10px grey; */
+    }
+
+        .custom-cash-icon .fa-cc-cash::before {
+            color: green;
+            content: 'Cash On Hand';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: cursive;
+            font-size: 0.5rem; /* Adjust size as needed */
+            font-weight: bold;
+        }
+
+    .social-icon {
+        font-size: 2rem; /* Adjust size as needed */
+        margin: 10px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .facebook {
+        color: #1877f2; /* Facebook blue */
+    }
+
+    .twitter {
+        color: #1da1f2; /* Twitter blue */
+    }
+
+    .instagram {
+        color: #c32aa3; /* Instagram gradient (primary color) */
+    }
+
+    .tiktok {
+        color: #000000; /* TikTok black */
+    }
+</style>
+
+<footer class="border-top footer text-muted " style="background: #f5f5f5;">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-sm-4"></div>
+
+            <div class="col-sm-4">
+                <input type="button" value="Load More " class="btn btn-outline-danger btn-lg btn-block" />
+
+            </div>
+            <div class="col-sm-4"></div>
+
+        </div>
+        <div class="row mt-4">
+            <div class="col-sm-3">
+                <div class="row">
+                    <div class="col-sm-12 footerLabel "><label>Cusomer Care</label></div>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">Help Center</a>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">How To Buy</a>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">Returns & Refund</a>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">Contact Us</a>
+                </div>
+                <div class="row pt-3">
+                    <div class="col-sm-12 footerLabel "><label>Earn  With Daraz</label></div>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">Daraz University</a>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">Sell On Daraz </a>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">Code Of Conduct</a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <div class="col-sm-12 footerLabel "><label>Daraz</label></div>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">About Daraz</a>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">Careers </a>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">Daraz Blog</a>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">Terms & Conditions </a>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">Privacy Policy </a>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">Digital Payments </a>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">Daraz Customer University </a>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">Daraz Affiliate Program </a>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">Review  and  Win </a>
+                </div>
+                <div class="row">
+
+                    <a class="navbar-brand footerfont" asp-area="" asp-controller="Home" asp-action="Index">Meet  the  Winners </a>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <div class="col-sm-12 footerLabel "><label></label></div>
+                </div>
+
+
+
+            </div>
+            <div class="col-sm-3">
+                <div class="row">
+                    <div class="col-sm-12 footerLabel "><label>Exclusive Deals and Offers!</label></div>
+                </div>
+               
+            </div>
+        </div>
+
+    </div>
+    <div class="bg-white p-5  w-100 row ">
+        <div class="container mt-4">
+            <div class="row">
+                <!-- Payment Methods -->
+                <div class="col-md-8">
+                    <h6>Payment Methods</h6>
+                    <div class="d-flex">
+                        <!-- Cash on Delivery -->
+                        <div class="me-3 ">
+                            <span class="custom-cash-icon">
+                                <i class="fab fa-cc-cash fa-4x"></i>
+                            </span>
+
+                        </div>
+                        <!-- Visa -->
+                        <div class="me-3">
+                            <span class="custom-visa-icon">
+                                <i class="fab fa-cc-visa fa-3x"></i> <!-- Custom styled VISA icon -->
+                            </span>
+                        </div>
+                        <!-- Mastercard -->
+                        <div class="me-3">
+                            <span class="custom-visa-icon">
+                                <i class="fab fa-cc-mastercard fa-3x"></i>
+                            </span>
+                        </div>
+                        <!-- eSewa -->
+                        <div class="me-3">
+                            <span class="custom-e-sewa-icon">
+                                <i class="fab fa-cc-esewa fa-4x"></i>
+                            </span>
+
+                        </div>
+                        <!-- IME Pay -->
+                        <div class="me-3">
+                            <span class="custom-ime-pay-icon">
+                                <i class="fab fa-cc-imepay fa-4x"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Verified By -->
+                <div class="col-md-4 ">
+                    <h6>Verified by</h6>
+                    <div>
+                        <span>
+                            <i class="fas fa-shield-alt bg-white fa-3x"></i>
+                          
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css">
+    <div class="bg-white p-5 w-100 ">
+        <div class="container mt-4 bg-white">
+            <div class="row">
+                <div class="col-md-8 col-sm-8 col-lg-8">
+                    <h5>Daraz International</h5>
+                    <div class="d-flex align-items-center">
+                        <div class="d-flex flex-row">
+                            <div class="d-flex align-items-center mx-1 flex-wrap">
+                                <i class="flag-icon flag-icon-pk"></i>
+                                <span class="ms-1">Pakistan</span>
+                            </div>
+                            <div class="d-flex align-items-center mx-1 flex-wrap">
+                                <i class="flag-icon flag-icon-bd"></i>
+                                <span class="ms-1">Bangladesh</span>
+                            </div>
+                            <div class="d-flex align-items-center mx-1 flex-wrap">
+                                <i class="flag-icon flag-icon-lk"></i>
+                                <span class="ms-1">Sri Lanka</span>
+                            </div>
+                            <div class="d-flex align-items-center mx-1 flex-wrap">
+                                <i class="flag-icon flag-icon-mm"></i>
+                                <span class="ms-1">Myanmar</span>
+                            </div>
+                            <div class="d-flex align-items-center mx-1 flex-wrap">
+                                <i class="flag-icon flag-icon-np"></i>
+                                @*  <img src="path/to/nepal-flag.png" alt="Nepal" style="width: 30px; height: 30px;" /> *@
+                                <span class="ms-1">Nepal</span>
+                            </div>
+                        </div>
+                    </div>    
+                    </div>        
+           
+                <div class="col-md-4 col-sm-4 col-lg-4 ">    
+              
+                    <h5>Follow Us</h5>
+                    <div class="d-flex align-items-center">
+                        <div class="d-flex flex-row">
+                            <div class="d-flex align-items-center mx-1 flex-wrap">
+                                <a href="https://www.facebook.com" target="_blank" class="social-icon facebook">
+                                    <i class="fab fa-facebook"></i>
+                                </a> <!-- Facebook -->
+                            </div>
+                            <div class="d-flex align-items-center mx-1 flex-wrap">
+                                <a href="https://www.twitter.com" target="_blank" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                            </div>
+                            <div class="d-flex align-items-center mx-1 flex-wrap">
+                                <a href="https://www.instagram.com" target="_blank" class="social-icon instagram"><i class="fab fa-instagram"></i></a> <!-- Instagram -->
+                            </div>
+                            <div class="d-flex align-items-center mx-1 flex-wrap">
+                                <a href="https://www.tiktok.com" target="_blank" class="social-icon tiktok"><i class="fab fa-tiktok"></i></a> <!-- TikTok -->
+                            </div>                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</footer>

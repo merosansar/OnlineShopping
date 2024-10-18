@@ -1,0 +1,161 @@
+﻿@model List<OnlineShopping.DataAccess.Models.Cart>
+@{
+    decimal totalAmount = 0;
+    var i = 0;
+}
+<div class="shadow pt-3 p-4 pl-3 pr-3">
+    <div class="row mb-3">
+    <div class="col-sm-5 ">
+      
+        <input type="checkbox" id="selectAll"  /> Select all Items
+    </div>
+    <div class="col-sm-4"></div>
+    <div class="col-sm-3">
+        <button class="btn btn-danger" id="deleteSelected">Delete</button>
+    </div>
+</div>
+ @using (Html.BeginForm("Index", "Cart", FormMethod.Post))
+    {
+<div class="MainDiv mb-5 h-100 row w-100 p-2 m-2 mt-3 mb-3">
+            <div class="ItemDiv w-100  col-sm-8 col-lg-8 w-100 shadow">
+        <div class="row mt-4">
+            @foreach (var item in Model)
+            {
+                <div class="col-sm-1">
+                        @Html.CheckBoxFor(m =>Model[i].IsSelected, new { @class = "item-checkbox", data_price = item.Price, data_id = item.Id })
+                       @*  @Html.CheckBox("IsSelected", Model[i].IsSelected ?? false, new { @class = "item-checkbox", data_price = item.Price, data_id = item.Id }) *@
+                </div>
+                <div class="col-sm-3">
+                        <img src="~/images/t-shirt.jpg" class="img-fluid" style="height:5rem;" />
+                </div>
+                <div class="col-sm-2">
+                    @Html.HiddenFor(a=>Model[i].Price)
+                    @Html.DisplayFor(modelItem => item.Price)
+                </div>
+                <div class="col-sm-4">
+                        @Html.HiddenFor(a => Model[i].Quantity, new { id = "hiddenQuantity" + -item.Id })
+                        @Html.HiddenFor(a => Model[i].Id)
+                        @Html.HiddenFor(a => Model[i].CartItemId)
+                        <button type="button" class="border-0 w-3 btn-minus" data-id="@item.Id">-</button>
+                        <span id="quantity-@item.Id" class="quantity-amt p-1 text-black">@Html.DisplayFor(modelItem => item.Quantity)</span>
+                        <button type="button" class="border-0 w-3 btn-plus" data-id="@item.Id">+</button>
+                </div>
+                    <div class="col-sm-2">
+                        <i class="fas fa-trash-alt"></i>
+                </div>
+                i++;
+            }
+        </div>
+    </div>
+
+            <div class="col-sm-4 col-lg-4 w-100 shadow ">
+                <div class="row mt-4">
+
+            <div class="col-sm-6"><label class="darazfontcolor">Total Amount:</label> </div>
+            <div class="col-sm-6"><span id="totalCost" class="darazfontcolor"> @totalAmount</span></div>
+        </div>
+           <div class="row">
+            <div class="col-sm-6"><label class="darazfontcolor">Shipping Fee:</label> </div>
+            <div class="col-sm-6"><span id="ShippingFee" class="darazfontcolor"> @totalAmount</span></div>
+           </div>
+        <div class="row">
+            <div class="col-sm-6"><label class="darazfontcolor">Delivery Fee:</label> </div>
+            <div class="col-sm-6"><span id="DeliveryFee" class="darazfontcolor"> @totalAmount</span></div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-6 mb-4">
+                <button type="submit" class="btn btn-primary darazcolor" id="checkoutButton">CheckOut</button>
+            </div>
+            </div>
+        </div>
+        <input type="hidden" id="hiddenQuantities" name="Quantities" />
+    </div>
+
+}
+</div>
+
+<script>
+    const $checkboxes = $('.item-checkbox');
+    const $selectAllCheckbox = $('#selectAll');
+    const $totalCostElement = $('#totalCost');
+
+    function updateHiddenFields() {
+        const quantities = {};
+        $('.item-checkbox:checked').each(function () {
+           
+            const id = $(this).data('id');
+           
+            // $(this).val('true');
+            const $quantityElement = $(`#quantity-${id}`);
+            const quantity = parseInt($quantityElement.text(), 10);
+            if (quantity > 0) {
+                quantities[id] = quantity;
+            }
+        });
+
+        // Set the JSON-encoded quantities to the hidden input field
+        $('#hiddenQuantities').val(JSON.stringify(quantities));
+    }
+
+    function updateTotalCost() {
+        const items = $checkboxes.map(function () {
+            const $checkbox = $(this);
+            if (!$checkbox.is(':checked')) return null;
+           
+            const price = parseFloat($checkbox.data('price'));
+            const id = $checkbox.data('id');
+            const $quantityElement = $(`#quantity-${id}`);
+            const quantity = $quantityElement.length ? parseInt($quantityElement.text().trim(), 10) : 0;
+
+            return { price, quantity };
+        }).get().filter(item => item !== null);
+
+        const totalAmount = items.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+        $totalCostElement.text(`Total Amount: ${totalAmount.toFixed(2)}`);
+    }
+
+    $checkboxes.on('change', updateTotalCost);
+    $selectAllCheckbox.on('change', function () {
+        $checkboxes.prop('checked', $(this).is(':checked'));
+       
+        updateTotalCost();
+        updateHiddenFields();
+    });
+
+    $('.btn-minus').on('click', function () {
+        const id = $(this).data('id');
+        const $quantityElement = $(`#quantity-${id}`);
+        if ($quantityElement.length) {
+            let quantity = parseInt($quantityElement.text(), 10);
+            if (quantity > 1) {
+                var minusquantity = quantity - 1;
+                $quantityElement.text(--quantity);
+                $(`#hiddenQuantity-${id}`).empty();
+              
+                $(`#hiddenQuantity-${id}`).val(quantity);
+                updateTotalCost();
+                updateHiddenFields();
+            }
+        }
+    });
+
+    $('.btn-plus').on('click', function () {
+        const id = $(this).data('id');
+        const $quantityElement = $(`#quantity-${id}`);
+        if ($quantityElement.length) {
+            let quantity = parseInt($quantityElement.text(), 10);
+            if (!isNaN(quantity)) {
+                $quantityElement.text(++quantity);
+                $(`#hiddenQuantity-${id}`).empty();
+                $(`#hiddenQuantity-${id}`).val(+quantity);
+                updateTotalCost();
+                updateHiddenFields();
+            }
+        }
+    });
+   
+    updateTotalCost();
+    updateHiddenFields();
+</script>
