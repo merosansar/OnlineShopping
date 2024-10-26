@@ -17,6 +17,7 @@ namespace OnlineShopping.DataAccess.Models
         //[StringLength(255)]
         public string? PasswordHash { get; set; }
         public string? VerificationCode { get; set; }
+        public string? JwtToken { get; set; }
 
         //[Required]
         //[StringLength(100)]

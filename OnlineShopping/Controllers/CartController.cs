@@ -54,48 +54,8 @@ namespace OnlineShopping.Web.Controllers
 
 
 
-            //if (ModelState.IsValid)
-            //{
-            //    // Check if Quantities is not null or empty
-            //    if (!string.IsNullOrEmpty(model.Quantities))
-            //    {
-            //        try
-            //        {
-            //            // Deserialize the JSON string to a dictionary
-            //            var quantities = JsonConvert.DeserializeObject<Dictionary<int, int>>(model.Quantities);
-
-            //            // Process selected items and quantities
-            //            if (quantities != null)
-            //            {
-            //                foreach (var kvp in quantities)
-            //                {
-            //                    int itemId = kvp.Key;
-            //                    int quantity = kvp.Value;
-
-            //                    // Retrieve and process each item based on the ID and quantity
-            //                }
-            //            }
-            //        }
-            //        catch (JsonException)
-            //        {
-            //            // Handle JSON parsing error
-            //            ModelState.AddModelError("", "Error parsing quantities data.");
-            //            return View(model);
-            //        }
-            //    }
-            //    else
-            //    {
-            //        // Handle the case where Quantities is null or empty
-            //        ModelState.AddModelError("", "Quantities data is missing.");
-            //        return View(model);
-            //    }
-
-            //    // Redirect or return a view with success message
-            //    return RedirectToAction("Success");
-            //}
-
-            //If the model state is invalid, return to the form with validation errors
-            return View();
+            
+           
         }
 
 
@@ -106,6 +66,7 @@ namespace OnlineShopping.Web.Controllers
             {
                 // Handle case where ID is not in session
                 ViewBag.Message = "No UserId in Session";
+                TempData["AddToCart"] = "Yes";
                 return RedirectToAction("Login", "User");
             }
            
@@ -118,6 +79,8 @@ namespace OnlineShopping.Web.Controllers
             else
             {
                 i.ProductId = m.Id;
+                i.Quantity = m.Quantity;
+                
                 return RedirectToAction("Index",i);
             }
 

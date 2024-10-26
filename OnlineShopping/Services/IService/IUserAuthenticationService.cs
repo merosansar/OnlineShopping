@@ -5,7 +5,7 @@ namespace OnlineShopping.Web.Services.IService
 {
     public interface IUserAuthenticationService
     {
-        List<PasswordHashModel> ReturnDecryptPassword(string flag, string UserName, string PasswordHash);
-        List<ResponseCode> LoginResponse(string flag, string UserName, string PasswordHash);
+        List<PasswordHashModel> ReturnDecryptPassword(string flag, string UserName, string PasswordHash, string JwtToken);
+        List<ResponseCode> LoginResponse(string flag, string UserName, string PasswordHash, string JwtToken);
     }
 }

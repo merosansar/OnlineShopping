@@ -185,10 +185,12 @@ namespace OnlineShopping.Web.Controllers
             return View(result);
         }
 
-        public IActionResult ProductDetails(int Id)
+        public IActionResult ProductDetails(int? Id=0)
         {
             var m = new Product();
-            var result = _IProductService.GetProduct("f", Id, m.Name ?? "", m.Description ?? "", m.CategoryId ?? 0, Convert.ToDecimal(m.Price), m.Quantity, m.ImageUrl ?? "", m.SubCatId ?? 0, m.ItemId ?? 0, m.Rating ?? 0).ToList().FirstOrDefault();
+            TempData["ProductId"] = Id;
+            
+            var result = _IProductService.GetProduct("f", Id??0, m.Name ?? "", m.Description ?? "", m.CategoryId ?? 0, Convert.ToDecimal(m.Price), m.Quantity, m.ImageUrl ?? "", m.SubCatId ?? 0, m.ItemId ?? 0, m.Rating ?? 0).ToList().FirstOrDefault();
             return View(result);
         }
 

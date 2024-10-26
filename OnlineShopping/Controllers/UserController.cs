@@ -27,7 +27,7 @@ namespace OnlineShopping.Web.Controllers
         [HttpPost]
         public IActionResult Login(User u)
         {
-            var m = Authentication.ReturnDecryptPassword("s",u.Username ?? "", u.PasswordHash??"").ToList().FirstOrDefault();
+            var m = Authentication.ReturnDecryptPassword("s",u.Username ?? "", u.PasswordHash??"",u.JwtToken??"").ToList().FirstOrDefault();
             int UserId = 0;
             string FullName = "";
             if (m != null) {
@@ -46,7 +46,7 @@ namespace OnlineShopping.Web.Controllers
             }
             }
 
-            var i = Authentication.LoginResponse("a",u.Username??"", u.PasswordHash??"").ToList().FirstOrDefault();
+            var i = Authentication.LoginResponse("a",u.Username??"", u.PasswordHash??"",u.JwtToken??"").ToList().FirstOrDefault();
             if (i != null)
             {
                 if (i.Code == "000")
@@ -69,7 +69,7 @@ namespace OnlineShopping.Web.Controllers
         [HttpPost]
         public IActionResult SellerLogin(User u)
         {
-            var m = Authentication.ReturnDecryptPassword("s", u.Username ?? "", u.PasswordHash ?? "").ToList().FirstOrDefault();
+            var m = Authentication.ReturnDecryptPassword("s", u.Username ?? "", u.PasswordHash ?? "",u.JwtToken??"").ToList().FirstOrDefault();
             int UserId = 0;
             if (m != null)
             {
@@ -87,7 +87,7 @@ namespace OnlineShopping.Web.Controllers
                 }
             }
 
-            var i = Authentication.LoginResponse("a", u.Username ?? "", u.PasswordHash ?? "").ToList().FirstOrDefault();
+            var i = Authentication.LoginResponse("a", u.Username ?? "", u.PasswordHash ?? "",u.JwtToken??"").ToList().FirstOrDefault();
             if (i != null)
             {
                 if (i.Code == "000")

@@ -32,21 +32,38 @@ namespace OnlineShopping.Web.Controllers
             var ItemList = ItemContext.GetItemList("s", 0, 0, "").ToList();
             var result = _IProductService.GetProduct("s", m.Id, m.Name ?? "", m.Description ?? "", m.CategoryId ?? 0, Convert.ToDecimal(m.Price), m.Quantity, m.ImageUrl ?? "", m.SubCatId ?? 0, m.ItemId ?? 0, m.Rating ?? 0).ToList();
             if (result.Count > 0) { n.ProductList = result; }
-            if (!UserId.HasValue)
-            {
-                // Handle case where ID is not in session
-                ViewBag.Message = "No UserId in Session";
-                return RedirectToAction("Login", "User");
-            }
+           
             var count = _CartService.GetCartTotalCount("c", m.Id, UserId ?? 0, cart.CartItemId ?? 0, cart.ProductId, cart.Quantity, cart.Price,cart.IsSelected).ToList().FirstOrDefault();
             //if (count == null) { TempData["CartTotalCount"] = "0"; }
             //else { TempData["CartTotalCount"] = count.TotalCartItem; }
 
             TempData["CartTotalCount"] = count == null ? "0" : count.TotalCartItem.ToString();
+
             n.CatList = categories;
             n.SubCatList = subcat;
             n.Itemlist = ItemList;
-            return View(n);
+            if (!UserId.HasValue  && (count == null ))
+            {
+                // Handle case where ID is not in session
+                ViewBag.Message = "No UserId in Session";
+                return View(n);
+               
+            }
+            var addCartStatus = "";
+            if (TempData["AddToCart"]!=null) { addCartStatus = TempData["AddToCart"].ToString(); }
+           
+
+            if (UserId.HasValue && (addCartStatus=="Yes"))
+            {
+                var Id = TempData["ProductId"].ToString();
+                // Handle case where ID is not in session
+              
+                return RedirectToAction("ProductDetails", "Product", new { Id = Convert.ToInt32(Id) });
+
+            }
+
+
+            return RedirectToAction("Login", "User");
 
         }
         public IActionResult Login()
@@ -61,17 +78,7 @@ namespace OnlineShopping.Web.Controllers
         {
             return View();
         }
-        //public IActionResult _HomeCategory()
-        //{
-        //    var m = new HomeViewModel();
-          
-        //    var categories = _category.GetDropdownData("CatData", "").ToList();
-        //    var subcat = _SubCatContext.GetSubCatList("s","",0,0).ToList();
-            
-        //    m.CatList = categories.ToList();
-        //    m.SubCatList = subcat;
-        //    return View(m);
-        //}
+      
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

@@ -1,5 +1,8 @@
 ﻿
 @model OnlineShopping.DataAccess.Models.Product  
+@{
+    var databaseQuantity = Model.Quantity;
+}
     <style>
         .card {
             border: 1px solid #ddd;
@@ -122,27 +125,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <div class="container">
     <div class="product-card">
         <div class="product-image">
@@ -192,7 +174,7 @@
              @*    <a asp-controller="Cart" asp-action="Create" asp-route-id="@Model.Id" class="btn btn-lg h-1 p-0 mb-2" style="background-color:#f85606;color:white;width:100%;">Add To Cart  </a> *@
             </div>
 
-            @Html.HiddenFor(m=>m.Quantity)
+            @Html.Hidden("Quantity")
 
             @Html.HiddenFor(m => m.Price)
             @Html.HiddenFor(m => m.Id)
@@ -208,10 +190,10 @@
     </div>
 <script type="text/javascript">
     $(document).ready(function () {
-        var minquantity = 0;
-        var maxquantity = 15;
+        var minquantity = 1;
+        var maxquantity = @databaseQuantity;
         var quantity = $('#QuantityAmt').val();
-        if (quantity == '') { $('#QuantityAmt').text(0); }
+        if (quantity == '') { $('#QuantityAmt').text(minquantity); }
         function updateQuantity() {
             let currentQuantity = parseInt($('#QuantityAmt').text(), 10);
             $('#btnMinus').prop('disabled', currentQuantity <= minquantity);
@@ -221,13 +203,13 @@
         $('#btnPlus').click(function () {
 
             var quat = $('#QuantityAmt').text();
-            if (quat != '') {
+            if (quat!= '') {
                 if (quat < maxquantity) {
                     var Plusamount = parseInt(quat);
                     Plusamount += 1;
                     $('#QuantityAmt').text(Plusamount);
                     $('#Quantity').empty();
-                    $('#Quantity').val(Plusamount);                   
+                    $('#Quantity').val(parseInt(Plusamount, 10));
                     updateQuantity();
                 }
 
@@ -236,14 +218,14 @@
 
         $('#btnMinus').click(function () {
 
-            var quat = $('#QuantityAmt').text();
-            if (quat != '') {
-                if (quat > minquantity) {
-                    var Minusamount = parseInt(quat);
+            var quati = $('#QuantityAmt').text();
+            if (quati != '') {
+                if (quati > minquantity) {
+                    var Minusamount = parseInt(quati);
                     Minusamount -= 1;
                     $('#QuantityAmt').text(Minusamount);
                     $('#Quantity').empty();
-                    $('#Quantity').val(Minusamount);
+                    $('#Quantity').val(parseInt(Minusamount,10));
                     updateQuantity();
                 }
 
