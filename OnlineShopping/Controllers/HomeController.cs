@@ -50,20 +50,22 @@ namespace OnlineShopping.Web.Controllers
                
             }
             var addCartStatus = "";
-            if (TempData["AddToCart"]!=null) { addCartStatus = TempData["AddToCart"].ToString(); }
+            if (TempData["AddToCart"]!=null) { addCartStatus = TempData["AddToCart"]?.ToString()??null; }
            
 
             if (UserId.HasValue && (addCartStatus=="Yes"))
             {
-                var Id = TempData["ProductId"].ToString();
+                var Id = TempData["ProductId"]?.ToString()??"";
                 // Handle case where ID is not in session
               
                 return RedirectToAction("ProductDetails", "Product", new { Id = Convert.ToInt32(Id) });
 
             }
-
-
-            return RedirectToAction("Login", "User");
+            if (UserId.HasValue)
+            {
+                return View(n);
+            }
+                return RedirectToAction("Login", "User");
 
         }
         public IActionResult Login()

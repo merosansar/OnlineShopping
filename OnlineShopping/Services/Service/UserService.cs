@@ -15,26 +15,30 @@ namespace OnlineShopping.Web.Services.Service
 
     {
         private readonly EshopContext _context = context;
-        public List<ResponseCode> ChangeUserInfo(string flag, int? Id, string UserName, string Email, string PasswordHash, string FullName, string PhoneNo, string Address, string City, string Province, string Zone, string District, string ProfilePicUrl, int? RoleId,int GenderId , DateTime Dob)
+
+        public List<ResponseCode> ChangeUserInfo(string flag, int? Id, string UserName, string? Email, string PasswordHash, string FullName, string? PhoneNo, string? Address, string? City, string? Province, string? Zone, string? District, string? ProfilePicUrl, int? RoleId, int GenderId, DateTime Dob)
         {
+           
             var pflag = new SqlParameter("@Flag", flag);
             var pId = new SqlParameter("@Id", Id);
             var pUserName = new SqlParameter("@UserName", UserName);
-            var pEmail = new SqlParameter("@Email", (object)Email ?? DBNull.Value);
+            var pEmail = new SqlParameter("@Email", (object?)Email ?? DBNull.Value);
             var pPasswordHash = new SqlParameter("@PasswordHash", PasswordHash);
             var pFullName = new SqlParameter("@FullName", FullName);
-            var pPhoneNo = new SqlParameter("@PhoneNo", (object)PhoneNo?? DBNull.Value);
-            var pAddress = new SqlParameter("@Address", (object)Address ?? DBNull.Value);
-            var pCity = new SqlParameter("@City", (object)City ?? DBNull.Value);
-            var pProvince = new SqlParameter("@Province", (object)Province ?? DBNull.Value);
-            var pZone = new SqlParameter("@Zone", (object)Zone ?? DBNull.Value);
-            var pDistrict = new SqlParameter("@District", (object)District ?? DBNull.Value);
-            var pProfilePicUrl = new SqlParameter("@ProfilePicUrl", (object)ProfilePicUrl ?? DBNull.Value);
-            var pRoleId = new SqlParameter("@RoleId", (object)RoleId ?? DBNull.Value);
+            var pPhoneNo = new SqlParameter("@PhoneNo", (object?)PhoneNo ?? DBNull.Value);
+            var pAddress = new SqlParameter("@Address", (object?)Address ?? DBNull.Value);
+            var pCity = new SqlParameter("@City", (object?)City ?? DBNull.Value);
+            var pProvince = new SqlParameter("@Province", (object?)Province ?? DBNull.Value);
+            var pZone = new SqlParameter("@Zone", (object?)Zone ?? DBNull.Value);
+            var pDistrict = new SqlParameter("@District", (object?)District ?? DBNull.Value);
+            var pProfilePicUrl = new SqlParameter("@ProfilePicUrl", (object?)ProfilePicUrl ?? DBNull.Value);
+
+            var pRoleId = new SqlParameter("@RoleId", (object?)RoleId ?? DBNull.Value);
             var pGenderId = new SqlParameter("@GenderId", GenderId);
             var pDob = new SqlParameter("@Dob", Dob);
-            return _context.ResponseCodes.FromSqlRaw("EXECUTE Proc_User @Flag,@Id,@UserName,@Email,@PasswordHash,@FullName,@PhoneNo,@Address,@City,@Province,@Zone,@District,@ProfilePicUrl,@RoleId,@GenderId,@Dob", pflag, pId, pUserName,pEmail,pPasswordHash,pFullName,pPhoneNo,pAddress,pCity,pProvince,pZone,pDistrict,pProfilePicUrl,pRoleId,pGenderId,pDob).ToList();
+            return [.. _context.ResponseCodes.FromSqlRaw("EXECUTE Proc_User @Flag,@Id,@UserName,@Email,@PasswordHash,@FullName,@PhoneNo,@Address,@City,@Province,@Zone,@District,@ProfilePicUrl,@RoleId,@GenderId,@Dob", pflag, pId, pUserName, pEmail, pPasswordHash, pFullName, pPhoneNo, pAddress, pCity, pProvince, pZone, pDistrict, pProfilePicUrl, pRoleId, pGenderId, pDob)];
         }
+      
 
         //public List<ResponseCode> LoginResponse( string flag ,string UserName, string PasswordHash)
         //{

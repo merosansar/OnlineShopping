@@ -24,10 +24,10 @@ namespace OnlineShopping.Web.Services.Service
             var pColor = new SqlParameter("@Color", Color);
             var pDimensions = new SqlParameter("@Dimensions", Dimensions);
             var pWeight = new SqlParameter("@Weight", Weight);
-            var pPromotionStartDate = new SqlParameter("@PromotionStartDate", (object)PromotionStartDate ?? DBNull.Value);
-            var pPromotionEndDate = new SqlParameter("@PromotionEndDate", (object)PromotionEndDate ?? DBNull.Value);
-            var pSpecialPrice = new SqlParameter("@SpecialPrice", (object)SpecialPrice ?? DBNull.Value);
-            return _context.ResponseCodes.FromSqlRaw("EXECUTE Proc_ProductDetails @Flag,@Id,@ProductId,@Description,@Specifications,@Brand,@ProductModel,@Warranty,@Material,@Color,@Dimensions,@Weight,@PromotionStartDate,@PromotionEndDate,@SpecialPrice", pflag, pId, pProductId, pDescription, pSpecifications, pBrand, pProductModel, pWarranty, pMaterial, pColor, pDimensions, pWeight, pPromotionStartDate, pPromotionEndDate, pSpecialPrice).ToList();
+            var pPromotionStartDate = new SqlParameter("@PromotionStartDate", (object?)PromotionStartDate ?? DBNull.Value);
+            var pPromotionEndDate = new SqlParameter("@PromotionEndDate", (object?)PromotionEndDate ?? DBNull.Value);
+            var pSpecialPrice = new SqlParameter("@SpecialPrice", (object?)SpecialPrice ?? DBNull.Value);
+            return [.. _context.ResponseCodes.FromSqlRaw("EXECUTE Proc_ProductDetails @Flag,@Id,@ProductId,@Description,@Specifications,@Brand,@ProductModel,@Warranty,@Material,@Color,@Dimensions,@Weight,@PromotionStartDate,@PromotionEndDate,@SpecialPrice", pflag, pId, pProductId, pDescription, pSpecifications, pBrand, pProductModel, pWarranty, pMaterial, pColor, pDimensions, pWeight, pPromotionStartDate, pPromotionEndDate, pSpecialPrice)];
         }
 
        
@@ -46,11 +46,11 @@ namespace OnlineShopping.Web.Services.Service
             var pColor = new SqlParameter("@Color", Color);
             var pDimensions = new SqlParameter("@Dimensions", Dimensions);
             var pWeight = new SqlParameter("@Weight", Weight);
-            var pPromotionStartDate = new SqlParameter("@PromotionStartDate", (object)PromotionStartDate ?? DBNull.Value);
-            var pPromotionEndDate = new SqlParameter("@PromotionEndDate", (object)PromotionEndDate ?? DBNull.Value);
-            var pSpecialPrice = new SqlParameter("@SpecialPrice", (object)SpecialPrice?? DBNull.Value);
+            var pPromotionStartDate = new SqlParameter("@PromotionStartDate", (object?)PromotionStartDate ?? DBNull.Value);
+            var pPromotionEndDate = new SqlParameter("@PromotionEndDate", (object?)PromotionEndDate ?? DBNull.Value);
+            var pSpecialPrice = new SqlParameter("@SpecialPrice", (object?)SpecialPrice?? DBNull.Value);
             
-            return _context.ProductDetail.FromSqlRaw("EXECUTE Proc_ProductDetails @Flag,@Id,@ProductId,@Description,@Specifications,@Brand,@ProductModel,@Warranty,@Material,@Color,@Dimensions,@Weight,@PromotionStartDate,@PromotionEndDate,@SpecialPrice", pflag, pId, pProductId, pDescription, pSpecifications, pBrand, pProductModel, pWarranty, pMaterial, pColor, pDimensions, pWeight,pPromotionStartDate,pPromotionEndDate, pSpecialPrice).ToList();
+            return [.. _context.ProductDetail.FromSqlRaw("EXECUTE Proc_ProductDetails @Flag,@Id,@ProductId,@Description,@Specifications,@Brand,@ProductModel,@Warranty,@Material,@Color,@Dimensions,@Weight,@PromotionStartDate,@PromotionEndDate,@SpecialPrice", pflag, pId, pProductId, pDescription, pSpecifications, pBrand, pProductModel, pWarranty, pMaterial, pColor, pDimensions, pWeight,pPromotionStartDate,pPromotionEndDate, pSpecialPrice)];
         }
 
        

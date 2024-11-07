@@ -30,8 +30,8 @@ namespace OnlineShopping.Web.Controllers
             var m = Authentication.ReturnDecryptPassword("s",u.Username ?? "", u.PasswordHash??"",u.JwtToken??"").ToList().FirstOrDefault();
             int UserId = 0;
             string FullName = "";
-            if (m != null) {
-                FullName = m.FullName;
+            if (m!= null) {
+                FullName = m.FullName??"";
                 
                 if (m.PasswordHash != null)
             {
@@ -55,7 +55,7 @@ namespace OnlineShopping.Web.Controllers
                     TempData["FullName"] = FullName;
                     HttpContext.Session.SetInt32("UserId", UserId);
                     HttpContext.Session.SetString("FullName", FullName);
-                    HttpContext.Session.SetString("Username", u.Username);
+                    HttpContext.Session.SetString("Username", u.Username??"");
                     return RedirectToAction("Index", "Home");
                 }
             }
@@ -116,7 +116,7 @@ namespace OnlineShopping.Web.Controllers
 
             if (TempData["VerificationCode"] != null)
             {
-                var verificationcode = TempData["VerificationCode"].ToString();
+                var verificationcode = TempData["VerificationCode"]?.ToString()??"";
                 if (verificationcode != u.VerificationCode)
                 {
 
@@ -143,7 +143,7 @@ namespace OnlineShopping.Web.Controllers
         public IActionResult Register(User u)
         {
             if(TempData["VerificationCode"]!=null) {
-                var verificationcode = TempData["VerificationCode"].ToString();
+                var verificationcode = TempData["VerificationCode"]?.ToString()??"";
                 if (verificationcode != u.VerificationCode)
                 {
                     
@@ -155,7 +155,7 @@ namespace OnlineShopping.Web.Controllers
                 }
             }
            
-            var PasswordHash = EncryptDecrypt.Encrypt(u.PasswordHash);
+            var PasswordHash = EncryptDecrypt.Encrypt(u.PasswordHash??"");
             //var decrypt = EncryptDecrypt.Decrypt(PasswordHash);
             var  i = UserService.ChangeUserInfo("i",u.UserId,u.Username??"",u.Email, PasswordHash, u.FullName??"",u.PhoneNumber,u.Address,u.City,u.Province,u.Zone,u.District,u.ProfilePicUrl,u.RoleId,u.GenderId,Convert.ToDateTime( u.Dob)).ToList();
 
