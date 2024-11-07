@@ -1,0 +1,32 @@
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\bin\Debug\net8.0\OnlineShopping.Utility.deps.json
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\bin\Debug\net8.0\OnlineShopping.Utility.dll
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\bin\Debug\net8.0\OnlineShopping.Utility.pdb
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\bin\Debug\net8.0\OnlineShopping.DataAccess.dll
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\bin\Debug\net8.0\OnlineShopping.DataAccess.pdb
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.csproj.AssemblyReference.cache
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.AssemblyInfoInputs.cache
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.AssemblyInfo.cs
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.csproj.CoreCompileInputs.cache
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.sourcelink.json
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineSh.342BEFF2.Up2Date
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.dll
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\refint\OnlineShopping.Utility.dll
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.pdb
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\ref\OnlineShopping.Utility.dll
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\bin\Debug\net8.0\OnlineShopping.Utility.deps.json
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\bin\Debug\net8.0\OnlineShopping.Utility.dll
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\bin\Debug\net8.0\OnlineShopping.Utility.pdb
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\bin\Debug\net8.0\OnlineShopping.DataAccess.dll
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\bin\Debug\net8.0\OnlineShopping.DataAccess.pdb
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.csproj.AssemblyReference.cache
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.AssemblyInfoInputs.cache
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.AssemblyInfo.cs
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.csproj.CoreCompileInputs.cache
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.sourcelink.json
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineSh.342BEFF2.Up2Date
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.dll
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\refint\OnlineShopping.Utility.dll
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\OnlineShopping.Utility.pdb
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.Utility\obj\Debug\net8.0\ref\OnlineShopping.Utility.dll

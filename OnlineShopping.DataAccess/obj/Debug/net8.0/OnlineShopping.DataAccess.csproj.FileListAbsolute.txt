@@ -1,0 +1,30 @@
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.DataAccess\bin\Debug\net8.0\OnlineShopping.DataAccess.deps.json
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.DataAccess\bin\Debug\net8.0\OnlineShopping.DataAccess.runtimeconfig.json
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.DataAccess\bin\Debug\net8.0\OnlineShopping.DataAccess.dll
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.DataAccess\bin\Debug\net8.0\OnlineShopping.DataAccess.pdb
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.csproj.AssemblyReference.cache
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.AssemblyInfoInputs.cache
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.AssemblyInfo.cs
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.csproj.CoreCompileInputs.cache
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.sourcelink.json
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.dll
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\refint\OnlineShopping.DataAccess.dll
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.pdb
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.genruntimeconfig.cache
+C:\Pooja Gautam\E-CommerceSite\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\ref\OnlineShopping.DataAccess.dll
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.DataAccess\bin\Debug\net8.0\OnlineShopping.DataAccess.deps.json
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.DataAccess\bin\Debug\net8.0\OnlineShopping.DataAccess.runtimeconfig.json
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.DataAccess\bin\Debug\net8.0\OnlineShopping.DataAccess.dll
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.DataAccess\bin\Debug\net8.0\OnlineShopping.DataAccess.pdb
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.csproj.AssemblyReference.cache
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.AssemblyInfoInputs.cache
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.AssemblyInfo.cs
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.csproj.CoreCompileInputs.cache
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.sourcelink.json
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.dll
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\refint\OnlineShopping.DataAccess.dll
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.pdb
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\OnlineShopping.DataAccess.genruntimeconfig.cache
+C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping.DataAccess\obj\Debug\net8.0\ref\OnlineShopping.DataAccess.dll
