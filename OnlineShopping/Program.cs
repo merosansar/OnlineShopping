@@ -27,8 +27,8 @@ builder.Services.AddAuthentication(options =>
 .AddCookie()
 .AddGoogle(options =>
 {
-    options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value;
-    options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value;
+    options.ClientId = builder.Configuration.GetSection("GoogleKeys:ClientId").Value ?? throw new InvalidOperationException("Google ClientId is not configured."); ;
+    options.ClientSecret = builder.Configuration.GetSection("GoogleKeys:ClientSecret").Value ?? throw new InvalidOperationException("Google ClientSecret is not configured.");
 
 });
 var app = builder.Build();

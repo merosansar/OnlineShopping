@@ -6,7 +6,7 @@
     var verifycode = "";
     if (TempData["VerificationCode"] != null)
     {
-        verifycode = TempData["VerificationCode"].ToString();
+        verifycode = TempData["VerificationCode"]?.ToString()??"";
     }
 }
 <style>

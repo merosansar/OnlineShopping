@@ -40,8 +40,8 @@ namespace OnlineShopping.DataAccess.Models
         //[StringLength(20)]
         public string? PhoneNumber { get; set; }
         public int GenderId { get; set; }
-        public string Dob { get; set; }
-        public string DateOfBirth { get; set; }
+        public string? Dob { get; set; }
+        public string?    DateOfBirth { get; set; }
 
 
         

@@ -1,11 +1,11 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-    @{
+@{
 
     string fullName = "";
     string username = "";
-    if (TempData["FullName"] != null) { fullName = TempData["FullName"].ToString(); }
-    if (TempData["Username"] != null) { username = TempData["Username"].ToString(); }
+    if (TempData["FullName"] != null) { fullName = TempData["FullName"]?.ToString()??"" ; }
+    if (TempData["Username"] != null) { username = TempData["Username"]?.ToString() ?? "" ; }
     string firstLetter = "";
     if (fullName != null && fullName != "")
     {

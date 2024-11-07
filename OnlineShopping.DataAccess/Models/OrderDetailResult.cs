@@ -15,7 +15,7 @@ namespace OnlineShopping.DataAccess.Models
         public int Quantity { get; set; }
         public decimal TotalAmount { get; set; }
 
-        public string ProductName { get; set; }
+        public string? ProductName { get; set; }
 
         public int? OrderId { get; set; }
 

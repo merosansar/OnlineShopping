@@ -4,7 +4,7 @@
     var cartCount = "0";
     if(TempData["CartTotalCount"]!= null)
     {
-        cartCount = TempData["CartTotalCount"].ToString();
+        cartCount = TempData["CartTotalCount"]?.ToString()??"";
     }
     // string fullName = @ViewBag.UserName;
     // string fullName = @ViewBag.Name;

@@ -6,17 +6,10 @@ using System.Text;
 
 namespace OnlineShopping.Utility.LoadDropdown
 {
-    public class EncryptionDecryptionFun
+    public class EncryptionDecryptionFun(IConfiguration configuration)
     {
-        private readonly string key;
-        private readonly string iv;
-
-        // Use the constructor to initialize Configuration and key/iv
-        public EncryptionDecryptionFun(IConfiguration configuration)
-        {
-            key = configuration["Encryption:Key"]; // Ensure this is 32 characters long
-            iv = configuration["Encryption:IV"];   // Ensure this is 16 characters long
-        }
+        private readonly string key = configuration["Encryption:Key"] ?? "";
+        private readonly string iv = configuration["Encryption:IV"] ?? "";
 
         // Encryption function
         public string Encrypt(string plainText)

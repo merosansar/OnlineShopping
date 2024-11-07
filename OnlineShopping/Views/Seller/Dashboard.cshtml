@@ -5,16 +5,19 @@
     var AdminUserCount = 0;
     var SellerUserCount = 0;
     var userCount = 0;
-    if(Model!=null & Model.Count()!= 0){
-        totalUserCount = Model.Where(a => a.Description == "TotalUser").ToList().FirstOrDefault().TotalCount;
-        AdminUserCount = Model.Where(a => a.Description == "TotalAdmin").ToList().FirstOrDefault().TotalCount;
-        SellerUserCount = Model.Where(a => a.Description == "Totalseller").ToList().FirstOrDefault().TotalCount;
-        userCount = Model.Where(a => a.Description == "TotalCustomer").ToList().FirstOrDefault().TotalCount;
-    }
-
+    if(Model!=null && Model.Count()> 0)
+    {
+        var user = @Model.ToList().Where(a => a.Description == "TotalUser").FirstOrDefault();
+        var adminuser = @Model.ToList().Where(a => a.Description == "TotalAdmin").FirstOrDefault();
+        var selleruser = @Model.ToList().Where(a => a.Description == "Totalseller").FirstOrDefault();
+        var customeruser = @Model.ToList().Where(a => a.Description == "TotalCustomer").FirstOrDefault();
+        totalUserCount = user?.TotalCount ?? 0;
+        AdminUserCount = adminuser?.TotalCount ?? 0;
+        SellerUserCount = selleruser?.TotalCount ?? 0;
+        userCount = customeruser?.TotalCount ?? 0;      
+       
+    }  
 }
-
-
 
 <style>
     .cardcss {
@@ -102,37 +105,101 @@
                             <div class="col-md-6 mb-3">
                                 <div class="card cardcss h-100 p-2">
                                     <p class="text-center"> <a asp-action="Index" asp-controller="Order"> <span class="text-white">  Total Order</span> </a>   </p>
-                                    <h4 class="text-center">@Model.Where(a => a.Description == "TotalOrder").ToList().FirstOrDefault().TotalCount</h4>
+                                    <h4 class="text-center">
+
+                                        @{
+                                            var totalOrder = 0;
+                                            if (Model != null)
+                                            {
+                                                var order = Model.ToList().Where(a => a.Description == "TotalOrder").FirstOrDefault();
+                                                totalOrder = order?.TotalCount ?? 0; // Replace 0 with a suitable default if needed
+                                            }
+                                           
+                                        } @totalOrder
+                                       
+                                       </h4>
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <div class="card cardcss h-100 p-2">
                                     <p class="text-center"><a><span class="text-white">Approved Order</span></a></p>
-                                    <h4 class="text-center">@Model.ToList().Where(a => a.Description == "ApprovedOrders").FirstOrDefault().TotalCount</h4>
+                                    <h4 class="text-center">
+                                        @{
+                                            var totalApproveOrder = 0;
+                                            if (Model != null)
+                                            {
+                                                var approveOrder = Model.ToList().Where(a => a.Description == "ApprovedOrders").FirstOrDefault();
+                                                totalApproveOrder = approveOrder?.TotalCount ?? 0; // Replace 0 with a suitable default if needed
+                                        } 
+                                        }
+                                            @totalApproveOrder
+
+                                        </h4>
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <div class="card cardcss h-100 p-2">
                                     <p class="text-center"><a><span class="text-white">Unapproved Order</span>  </a></p>
-                                    <h4 class="text-center">@Model.ToList().Where(a => a.Description == "UnApprovedOrders").FirstOrDefault().TotalCount</h4>
+                                    <h4 class="text-center">
+                                        @{var totalUnApproveOrder = 0;
+                                            if (Model != null)
+                                            {
+                                            var unapproveOrder = Model.ToList().Where(a => a.Description == "UnApprovedOrders").FirstOrDefault();
+                                             totalUnApproveOrder = unapproveOrder?.TotalCount ?? 0; // Replace 0 with a suitable default if needed
+                                        }
+                                        }@totalUnApproveOrder
+
+                                      </h4>
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <div class="card cardcss h-100 p-2">
                                     <p class="text-center"><a asp-action="Index" asp-controller="Product"><span class="text-white"> Total Product</span></a></></p>
-                                    <h4 class="text-center"> @Model.ToList().Where(a => a.Description == "TotalProduct").FirstOrDefault().TotalCount</h4>
+                                    <h4 class="text-center"> 
+                                        @{
+                                            var totalProduct = 0;
+                                            if (Model != null)
+                                            {
+                                            var product = Model.ToList().Where(a => a.Description == "TotalProduct").FirstOrDefault();
+                                             totalProduct = product?.TotalCount ?? 0; // Replace 0 with a suitable default if needed
+                                        }} @totalProduct
+
+                                        </h4>
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <div class="card cardcss h-100 p-2">
                                     <p class="text-center"><a asp-action="Index" asp-controller="Category"><span class="text-white">Total Category</span> </a>  </p>
-                                    <h4 class="text-center">@Model.ToList().Where(a => a.Description == "TotalCategory").FirstOrDefault().TotalCount</h4>
+                                    <h4 class="text-center">
+                                        @{
+                                            var totalCategory = 0;
+                                            if (Model != null)
+                                            {
+                                            var category = Model.ToList().Where(a => a.Description == "TotalCategory").FirstOrDefault();
+                                             totalCategory = category?.TotalCount ?? 0; // Replace 0 with a suitable default if needed
+                                            }
+                                          } @totalCategory
+
+
+
+                                       </h4>
                                 </div>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <div class="card cardcss h-100 p-2">
                                     <p class="text-center">Cancelled Orders</p>
-                                    <h4 class="text-center">@Model.ToList().Where(a => a.Description == "CancelledOrders").FirstOrDefault().TotalCount</h4>
+                                    <h4 class="text-center">
+                                        @{
+                                            var totalCancelOrder = 0;
+                                            if (Model != null)
+                                            {
+                                            var cancelOrder = Model.ToList().Where(a => a.Description == "CancelledOrders").FirstOrDefault();
+                                            totalCancelOrder = cancelOrder?.TotalCount ?? 0; // Replace 0 with a suitable default if needed
+                                        }
+                                        }@totalCancelOrder
+
+
+                                      </h4>
                                 </div>
                             </div>
                         </div>
@@ -226,19 +293,42 @@
                     <div class="col-md-12">
                         <div class="card cardcss boxshadow h-100 p-2">
                             <p class="text-center">Total Users</p>
-                            <h4 class="text-center">@Model.ToList().Where(a => a.Description == "TotalUser").FirstOrDefault().TotalCount </h4>
+                            <h4 class="text-center">@{
+                                    var totalCount = 0;
+                                    if(Model!=null){
+                                    var item = @Model.ToList().Where(a => a.Description == "TotalUser").FirstOrDefault();
+                                     totalCount = item?.TotalCount ?? 0; // Replace 0 with a suitable default if needed
+                                } 
+                                }
+                                @totalCount
+                            </h4>
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="card cardcss boxshadow h-100 p-2">
                             <p class="text-center">Admin Users</p>
-                            <h4 class="text-center">@Model.ToList().Where(a => a.Description == "TotalAdmin").FirstOrDefault().TotalCount</h4>
+                            <h4 class="text-center">
+                                @{
+                                    var totaladmin = 0;
+                                    if(Model!=null){
+                                    var admin = @Model.ToList().Where(a => a.Description == "TotalAdmin").FirstOrDefault();
+                                     totaladmin= admin?.TotalCount ?? 0; // Replace 0 with a suitable default if needed
+                                }
+                                } @totaladmin
+                            </h4>
                         </div>
                     </div>
                     <div class="col-md-12">
                         <div class="card cardcss boxshadow h-100 p-2">
                             <p class="text-center">Seller Users</p>
-                            <h4 class="text-center">@Model.ToList().Where(a => a.Description == "Totalseller").FirstOrDefault().TotalCount</h4>
+                            <h4 class="text-center">
+                                @{
+                                    var totalSeller = 0;
+                                    if(Model!=null){
+                                    var seller = @Model.ToList().Where(a => a.Description == "Totalseller").FirstOrDefault();
+                                     totalSeller = seller?.TotalCount ?? 0; // Replace 0 with a suitable default if needed
+                                }} @totalSeller
+                               </h4>
                         </div>
                     </div>
                    @*  <div class="col-md-12">

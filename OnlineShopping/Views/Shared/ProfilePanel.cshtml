@@ -1,6 +1,6 @@
 ﻿@{
     string fullName = "";
-    if (TempData["FullName"] != null) { fullName = TempData["FullName"].ToString(); }
+    if (TempData["FullName"] != null) { fullName = TempData["FullName"]?.ToString()??""; }
     
     string firstLetter = "";
     if (fullName != null && fullName != "" )
