@@ -1,0 +1,303 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = OnlineShopping.Web
+build_property.RootNamespace = OnlineShopping.Web
+build_property.ProjectDir = C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Pooja Gautam\E-CommerceSite\E-Shop .NetCore\OnlineShopping\OnlineShopping
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Cart/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Coupons/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ291cG9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/EmployeeBenefit/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVCZW5lZml0XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/EmployeeLeave/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVMZWF2ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/EmployeePerformance/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVQZXJmb3JtYW5jZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/EmployeeRole/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVSb2xlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/EmployeeTraining/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVUcmFpbmluZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Employee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Home/ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Home/_HomeCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfSG9tZUNhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Item/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Item/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Item/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Item/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Item/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXRlbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/NotificationSetting/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uU2V0dGluZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Notifications/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWZpY2F0aW9uc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Order/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Order/PaymentMethod.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcUGF5bWVudE1ldGhvZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/PaymentMethod/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGF5bWVudE1ldGhvZFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/ProductDetail/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/ProductDetail/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/ProductDetail/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/ProductDetail/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/ProductDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdERldGFpbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Product/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Product/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Product/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Product/ProductDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0RGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Product/ProductList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0TGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Promotion/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvbW90aW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Review/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV2aWV3XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Role/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Seller/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Seller/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VsbGVyXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Shared/ProfilePanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFByb2ZpbGVQYW5lbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Shared/_Category.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Shared/_LayoutSeller.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRTZWxsZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Shared/_MainCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluQ2F0ZWdvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Shared/_MainNavbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluTmF2YmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Shared/_SubCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdWJDYXRlZ29yeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/ShippingAddresses/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hpcHBpbmdBZGRyZXNzZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/SubCategory/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/SubCategory/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcnlcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/SubCategory/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcnlcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/SubCategory/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/SubCategory/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3ViQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/User/SellerLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTZWxsZXJMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/User/SellerRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTZWxsZXJSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Pooja Gautam/E-CommerceSite/E-Shop .NetCore/OnlineShopping/OnlineShopping/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-y65lwbk26q

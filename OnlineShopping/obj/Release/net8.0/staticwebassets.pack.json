@@ -1,0 +1,3253 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\OnlineShopping.Web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\OnlineShopping.Web.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\Images\\T-Shirt.jpg",
+      "PackagePath": "staticwebassets\\Images\\T-Shirt.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\css\\docs.css",
+      "PackagePath": "staticwebassets\\assets\\css\\docs.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\css\\fonts\\bootstrap-iconsd862.woff",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\bootstrap-iconsd862.woff"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\css\\fonts\\bootstrap-iconsd862.woff2",
+      "PackagePath": "staticwebassets\\assets\\css\\fonts\\bootstrap-iconsd862.woff2"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\css\\images\\layers-2x.html",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\layers-2x.html"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\css\\images\\layers.html",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\layers.html"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\css\\images\\marker-icon.html",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\marker-icon.html"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\css\\theme-dark.html",
+      "PackagePath": "staticwebassets\\assets\\css\\theme-dark.html"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\css\\theme-dark.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\theme-dark.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\css\\theme.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\theme.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\css\\theme.minc619.css",
+      "PackagePath": "staticwebassets\\assets\\css\\theme.minc619.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\css\\vendor.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\vendor.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\160x160\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\160x160\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\160x160\\img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\160x160\\img10.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\160x160\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\160x160\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\160x160\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\160x160\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\160x160\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\160x160\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\160x160\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\160x160\\img5.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\160x160\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\160x160\\img6.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\160x160\\img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\160x160\\img7.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\160x160\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\160x160\\img8.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\160x160\\img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\160x160\\img9.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\1618x1010\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1618x1010\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\1618x1010\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1618x1010\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\1920x1080\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1920x1080\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\1920x1080\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1920x1080\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\1920x1080\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1920x1080\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\1920x400\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1920x400\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\1920x400\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1920x400\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img10.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img11.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img12.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img13.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img14.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img15.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img16.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img17.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img18.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img19.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img19.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img20.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img20.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img21.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img21.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img22.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img22.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img23.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img23.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img24.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img24.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img25.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img25.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img26.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img26.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img4.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img5.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img6.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img7.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img8.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\400x400\\img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\400x400\\img9.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\415x310\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\415x310\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\415x310\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\415x310\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\600x200\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\600x200\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\725x1080\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\725x1080\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img1-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img1-dark.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img10-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img10-dark.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img10.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img11-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img11-dark.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img11.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img12-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img12-dark.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img12.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img13-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img13-dark.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img13.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img2-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img2-dark.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img3-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img3-dark.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img5-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img5-dark.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img5.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img6.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img7-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img7-dark.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img7.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img8-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img8-dark.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img8.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img9-dark.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img9-dark.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\900x562\\img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\900x562\\img9.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\documentation\\img1-lg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\documentation\\img1-lg.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\documentation\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\documentation\\img1.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\documentation\\img2-lg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\documentation\\img2-lg.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\documentation\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\documentation\\img2.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\documentation\\img3-lg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\documentation\\img3-lg.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\documentation\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\documentation\\img3.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\documentation\\img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\documentation\\img7.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\documentation\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\documentation\\img8.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img1-dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img1-dark.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img1.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img2-dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img2-dark.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img2.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img3-dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img3-dark.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img3.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img4-dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img4-dark.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img4.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img5-dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img5-dark.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img5.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img6-dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img6-dark.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img6.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img7-dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img7-dark.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img7.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img7.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img8-dark.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img8-dark.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\img\\others\\img8.png",
+      "PackagePath": "staticwebassets\\assets\\img\\others\\img8.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\js\\demo.js",
+      "PackagePath": "staticwebassets\\assets\\js\\demo.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\js\\hs.theme-appearance-charts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\hs.theme-appearance-charts.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\js\\hs.theme-appearance.js",
+      "PackagePath": "staticwebassets\\assets\\js\\hs.theme-appearance.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\js\\theme.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\theme.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\js\\vendor.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vendor.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\14.png",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\14.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\Logo2.png",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\Logo2.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\Prabhu Pay Final logo Slogan_red.png",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\Prabhu Pay Final logo Slogan_red.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\atlassian-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\atlassian-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\bank-of-america-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\bank-of-america-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\bookingcom-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\bookingcom-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\bootstrap-gray.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\bootstrap-gray.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\capsule-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\capsule-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\chrome-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\chrome-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\creation_soft_logo_high.png",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\creation_soft_logo_high.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\creationsoft.png",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\creationsoft.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\creationsoftlogo.png",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\creationsoftlogo.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\digitalocean-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\digitalocean-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\eshikshya.png",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\eshikshya.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\eshikshyalogo.png",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\eshikshyalogo.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\excel-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\excel-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\figma-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\figma-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\fitbit-gray.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\fitbit-gray.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\flow-xo-gray.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\flow-xo-gray.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\frontapp-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\frontapp-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\gitlab-gray.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\gitlab-gray.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\gmail-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\gmail-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\google-docs-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\google-docs-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\google-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\google-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\google-sheets-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\google-sheets-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\google-slides-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\google-slides-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\google-webdev-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\google-webdev-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\guideline-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\guideline-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\gulp-gray.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\gulp-gray.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\htmlstream.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\htmlstream.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\jira-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\jira-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\layar-gray.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\layar-gray.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\logo1.png",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\logo1.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\logo3.png",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\logo3.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\logo4.png",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\logo4.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\mailchimp-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\mailchimp-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\mastercard.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\mastercard.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\npm-gray.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\npm-gray.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\paypal-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\paypal-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\pdf-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\pdf-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\prabhu_mgmt.png",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\prabhu_mgmt.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\prabhumgmtlogo.png",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\prabhumgmtlogo.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\prabhupaylogo.png",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\prabhupaylogo.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\prosperops-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\prosperops-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\sass-gray.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\sass-gray.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\slack-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\slack-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\smslogo.png",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\smslogo.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\spec-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\spec-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\spotify-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\spotify-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\visa.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\visa.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\brands\\word-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\brands\\word-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\components\\card-1.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\components\\card-1.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\components\\card-2.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\components\\card-2.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\components\\card-3.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\components\\card-3.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\components\\card-6.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\components\\card-6.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\components\\placeholder-csv-format.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\components\\placeholder-csv-format.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\components\\placeholder-img-format.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\components\\placeholder-img-format.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\components\\popover-bottom.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\components\\popover-bottom.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\components\\popover-left.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\components\\popover-left.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\components\\popover-right.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\components\\popover-right.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\components\\popover-top.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\components\\popover-top.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-accordion.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-accordion.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-add-field.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-add-field.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-alerts.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-alerts.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-avatars.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-avatars.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-badge.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-badge.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-basic-forms.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-basic-forms.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-breadcrumb.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-breadcrumb.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-bs-icons.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-bs-icons.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-buttons.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-buttons.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-calendar.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-calendar.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-cards.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-cards.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-chartjs.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-chartjs.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-checks-and-switches.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-checks-and-switches.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-circles.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-circles.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-collapse.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-collapse.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-column-divider.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-column-divider.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-copy-to-clipboard.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-copy-to-clipboard.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-count-characters.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-count-characters.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-counter.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-counter.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-datatables.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-datatables.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-datepicker.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-datepicker.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-daterangepicker.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-daterangepicker.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-divider.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-divider.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-dropdowns.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-dropdowns.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-dropzone.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-dropzone.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-file-attachments.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-file-attachments.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-form-search.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-form-search.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-fslightbox.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-fslightbox.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-go-to.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-go-to.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-google-recaptcha.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-google-recaptcha.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-icons.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-icons.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-illustrations.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-illustrations.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-input-group.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-input-group.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-input-mask.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-input-mask.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-legend-indicator.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-legend-indicator.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-list-group.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-list-group.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-lists.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-lists.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-maps.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-maps.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-mega-menu.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-mega-menu.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-modal.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-modal.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-navbar-vertical-aside.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-navbar-vertical-aside.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-navbar.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-navbar.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-navs.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-navs.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-offcanvas.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-offcanvas.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-page-header.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-page-header.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-pagination.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-pagination.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-popovers.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-popovers.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-progress.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-progress.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-quantity-counter.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-quantity-counter.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-quill.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-quill.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-scrollspy.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-scrollspy.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-select.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-select.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-shapes.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-shapes.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-sliding-img.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-sliding-img.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-sortablejs.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-sortablejs.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-spinners.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-spinners.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-step-forms.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-step-forms.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-steps.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-steps.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-sticky-block.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-sticky-block.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-tab.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-tab.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-tables-sticky-header.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-tables-sticky-header.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-tables.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-tables.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-toasts.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-toasts.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-toggle-password.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-toggle-password.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-toggle-switch.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-toggle-switch.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-tooltips.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-tooltips.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system-light\\docs-typography.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system-light\\docs-typography.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-accordion.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-accordion.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-add-field.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-add-field.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-alerts.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-alerts.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-avatars.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-avatars.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-badge.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-badge.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-basic-forms.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-basic-forms.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-breadcrumb.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-breadcrumb.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-bs-icons.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-bs-icons.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-buttons.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-buttons.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-calendar.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-calendar.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-cards.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-cards.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-chartjs.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-chartjs.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-checks-and-switches.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-checks-and-switches.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-circles.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-circles.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-collapse.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-collapse.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-column-divider.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-column-divider.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-copy-to-clipboard.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-copy-to-clipboard.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-count-characters.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-count-characters.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-counter.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-counter.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-datatables.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-datatables.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-datepicker.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-datepicker.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-daterangepicker.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-daterangepicker.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-divider.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-divider.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-dropdowns.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-dropdowns.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-dropzone.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-dropzone.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-file-attachments.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-file-attachments.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-form-search.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-form-search.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-fslightbox.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-fslightbox.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-go-to.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-go-to.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-google-recaptcha.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-google-recaptcha.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-icons.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-icons.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-illustrations.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-illustrations.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-input-group.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-input-group.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-input-mask.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-input-mask.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-legend-indicator.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-legend-indicator.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-list-group.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-list-group.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-lists.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-lists.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-maps.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-maps.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-mega-menu.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-mega-menu.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-modal.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-modal.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-navbar-vertical-aside.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-navbar-vertical-aside.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-navbar.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-navbar.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-navs.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-navs.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-offcanvas.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-offcanvas.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-page-header.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-page-header.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-pagination.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-pagination.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-popovers.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-popovers.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-progress.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-progress.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-quantity-counter.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-quantity-counter.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-quill.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-quill.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-scrollspy.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-scrollspy.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-select.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-select.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-shapes.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-shapes.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-sliding-img.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-sliding-img.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-sortablejs.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-sortablejs.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-spinners.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-spinners.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-step-forms.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-step-forms.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-steps.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-steps.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-sticky-block.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-sticky-block.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-tab.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-tab.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-tables-sticky-header.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-tables-sticky-header.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-tables.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-tables.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-toasts.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-toasts.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-toggle-password.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-toggle-password.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-toggle-switch.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-toggle-switch.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-tooltips.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-tooltips.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\design-system\\docs-typography.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\design-system\\docs-typography.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-add-card.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-add-card.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-address.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-address.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-browse-file.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-browse-file.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-browse.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-browse.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-chatting.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-chatting.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-collaboration.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-collaboration.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-collection.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-collection.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-discount.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-discount.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-email-at.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-email-at.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-email-verification.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-email-verification.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-empty-cart.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-empty-cart.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-error.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-error.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-globe.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-globe.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-growing.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-growing.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-hi-five.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-hi-five.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-looking-for-answers.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-looking-for-answers.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-lost.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-lost.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-maintenance.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-maintenance.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-megaphone.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-megaphone.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-money-profits.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-money-profits.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-on-the-go.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-on-the-go.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-peeking.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-peeking.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-person-1.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-person-1.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-person-2.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-person-2.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-person-3.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-person-3.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-phone.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-phone.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-project-development.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-project-development.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-referrals.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-referrals.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-review.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-review.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-thinking.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-thinking.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-to-do.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-to-do.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-unlock.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-unlock.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\oc-yelling.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\oc-yelling.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\star-half.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\star-half.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations-light\\star-muted.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations-light\\star-muted.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\copy-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\copy-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\docs-main-page-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\docs-main-page-dark.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\docs-main-page.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\docs-main-page.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-add-card.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-add-card.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-address.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-address.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-browse-file.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-browse-file.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-browse.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-browse.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-chatting.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-chatting.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-collaboration.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-collaboration.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-collection.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-collection.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-discount.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-discount.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-email-at.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-email-at.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-email-verification.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-email-verification.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-empty-cart.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-empty-cart.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-error.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-error.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-globe.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-globe.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-growing.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-growing.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-hi-five.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-hi-five.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-looking-for-answers.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-looking-for-answers.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-lost.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-lost.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-maintenance.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-maintenance.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-megaphone.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-megaphone.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-money-profits.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-money-profits.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-on-the-go.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-on-the-go.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-peeking.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-peeking.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-person-1.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-person-1.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-person-2.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-person-2.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-person-3.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-person-3.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-phone.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-phone.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-project-development.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-project-development.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-referrals.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-referrals.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-review.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-review.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-thinking.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-thinking.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-to-do.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-to-do.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-unlock.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-unlock.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\oc-yelling.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\oc-yelling.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\print-icon.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\print-icon.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\project-schedule.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\project-schedule.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\review-rating-shield.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\review-rating-shield.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\star-half.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\star-half.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\star-muted.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\star-muted.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\illustrations\\star.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\illustrations\\star.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\content-combinations-container-overlay.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\content-combinations-container-overlay.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\content-combinations-content-centered.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\content-combinations-content-centered.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\content-combinations-overlay.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\content-combinations-overlay.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\demo-layouts-default-classic.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\demo-layouts-default-classic.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\demo-layouts-nav-tabs.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\demo-layouts-nav-tabs.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\footer-default-container.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\footer-default-container.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\header-default-container.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\header-default-container.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\header-double-line-container.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\header-double-line-container.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\sidebar-combinations-mini-plus-one-cols.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\sidebar-combinations-mini-plus-one-cols.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\sidebar-combinations-two-cols-between.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\sidebar-combinations-two-cols-between.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\sidebar-combinations-two-cols.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\sidebar-combinations-two-cols.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\sidebar-combinations-two-plus-mini-cols.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\sidebar-combinations-two-plus-mini-cols.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\sidebar-compact.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\sidebar-compact.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\sidebar-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\sidebar-dark.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\sidebar-default-classic.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\sidebar-default-classic.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\sidebar-default.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\sidebar-default.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\sidebar-detached-container.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\sidebar-detached-container.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\sidebar-detached-overlay-container.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\sidebar-detached-overlay-container.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts-light\\sidebar-mini.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts-light\\sidebar-mini.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\content-combinations-container-overlay.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\content-combinations-container-overlay.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\content-combinations-content-centered.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\content-combinations-content-centered.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\content-combinations-overlay.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\content-combinations-overlay.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\demo-layouts-default-classic.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\demo-layouts-default-classic.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\demo-layouts-nav-tabs.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\demo-layouts-nav-tabs.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\footer-default-container.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\footer-default-container.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\header-default-container.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\header-default-container.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\header-double-line-container.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\header-double-line-container.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\sidebar-combinations-mini-plus-one-cols.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\sidebar-combinations-mini-plus-one-cols.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\sidebar-combinations-two-cols-between.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\sidebar-combinations-two-cols-between.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\sidebar-combinations-two-cols.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\sidebar-combinations-two-cols.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\sidebar-combinations-two-plus-mini-cols.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\sidebar-combinations-two-plus-mini-cols.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\sidebar-compact.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\sidebar-compact.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\sidebar-dark.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\sidebar-dark.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\sidebar-default-classic.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\sidebar-default-classic.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\sidebar-default.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\sidebar-default.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\sidebar-detached-container.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\sidebar-detached-container.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\sidebar-detached-overlay-container.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\sidebar-detached-overlay-container.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\layouts\\sidebar-mini.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\layouts\\sidebar-mini.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\logos-light\\logo-short.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\logos-light\\logo-short.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\logos-light\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\logos-light\\logo.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\logos\\logo-short-white.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\logos\\logo-short-white.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\logos\\logo-short.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\logos\\logo-short.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\logos\\logo-white.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\logos\\logo-white.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\svg\\logos\\logo.svg",
+      "PackagePath": "staticwebassets\\assets\\svg\\logos\\logo.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\chartjs-plugin-datalabels\\dist\\chartjs-plugin-datalabels.min.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\chartjs-plugin-datalabels\\dist\\chartjs-plugin-datalabels.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\ckeditor5.css",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\ckeditor5.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\ckeditor5.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ad.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ad.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ae.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ae.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\af.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\af.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ag.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ag.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ai.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ai.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\al.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\al.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\am.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\am.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ao.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ao.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ar.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ar.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\as.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\as.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\at.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\at.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\au.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\au.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\aw.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\aw.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ax.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ax.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\az.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\az.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ba.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ba.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bb.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bb.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bd.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bd.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\be.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\be.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bf.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bf.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bg.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bg.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bh.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bh.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bi.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bi.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bj.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bj.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bl.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bl.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bm.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bm.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bn.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bn.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bo.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bo.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bq.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bq.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\br.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\br.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bs.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bs.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bt.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bt.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bw.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bw.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\by.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\by.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bz.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\bz.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ca.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ca.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cc.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cc.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cd.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cd.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cf.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cf.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cg.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cg.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ch.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ch.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ci.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ci.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ck.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ck.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cl.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cl.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cm.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cm.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cn.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cn.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\co.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\co.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cr.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cr.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cu.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cu.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cv.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cv.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cw.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cw.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cx.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cx.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cy.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cy.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cz.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\cz.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\de.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\de.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\dj.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\dj.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\dk.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\dk.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\dm.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\dm.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\do.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\do.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\dz.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\dz.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ec.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ec.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ee.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ee.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\eg.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\eg.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\eh.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\eh.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\er.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\er.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\es.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\es.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\et.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\et.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\eu.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\eu.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\fi.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\fi.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\fj.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\fj.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\fk.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\fk.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\fm.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\fm.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\fo.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\fo.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\fr.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\fr.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ga.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ga.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gb-eng.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gb-eng.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gb-nir.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gb-nir.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gb-sct.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gb-sct.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gb-wls.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gb-wls.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gb.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gb.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gd.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gd.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ge.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ge.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gf.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gf.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gg.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gg.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gh.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gh.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gi.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gi.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gl.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gl.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gm.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gm.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gn.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gn.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gp.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gp.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gq.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gq.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gr.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gr.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gs.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gs.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gt.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gt.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gu.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gu.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gw.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gw.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gy.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\gy.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\hk.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\hk.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\hn.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\hn.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\hr.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\hr.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ht.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ht.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\hu.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\hu.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\id.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\id.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ie.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ie.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\il.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\il.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\im.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\im.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\in.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\in.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\io.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\io.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\iq.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\iq.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ir.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ir.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\is.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\is.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\it.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\it.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\je.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\je.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\jm.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\jm.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\jo.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\jo.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\jp.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\jp.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ke.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ke.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\kg.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\kg.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\kh.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\kh.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ki.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ki.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\km.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\km.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\kn.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\kn.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\kp.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\kp.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\kr.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\kr.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\kw.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\kw.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ky.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ky.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\kz.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\kz.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\la.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\la.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\lb.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\lb.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\lc.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\lc.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\li.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\li.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\lk.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\lk.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\lr.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\lr.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ls.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ls.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\lt.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\lt.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\lu.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\lu.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\lv.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\lv.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ly.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ly.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ma.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ma.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mc.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mc.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\md.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\md.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\me.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\me.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mf.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mf.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mg.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mg.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mh.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mh.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mk.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mk.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ml.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ml.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mm.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mm.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mn.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mn.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mo.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mo.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mp.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mp.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mq.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mq.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mr.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mr.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ms.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ms.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mt.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mt.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mu.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mu.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mv.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mv.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mw.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mw.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mx.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mx.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\my.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\my.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mz.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\mz.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\na.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\na.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\nc.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\nc.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ne.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ne.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\nf.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\nf.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ng.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ng.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ni.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ni.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\nl.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\nl.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\no.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\no.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\np.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\np.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\nr.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\nr.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\nu.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\nu.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\nz.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\nz.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\om.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\om.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pa.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pa.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pe.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pe.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pf.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pf.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pg.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pg.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ph.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ph.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pk.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pk.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pl.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pl.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pm.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pm.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pn.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pn.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pr.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pr.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ps.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ps.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pt.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pt.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pw.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\pw.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\py.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\py.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\qa.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\qa.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\re.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\re.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ro.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ro.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\rs.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\rs.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ru.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ru.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\rw.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\rw.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sa.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sa.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sb.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sb.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sc.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sc.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sd.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sd.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\se.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\se.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sg.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sg.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sh.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sh.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\si.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\si.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sj.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sj.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sk.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sk.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sl.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sl.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sm.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sm.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sn.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sn.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\so.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\so.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sr.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sr.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ss.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ss.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\st.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\st.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sv.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sv.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sx.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sx.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sy.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sy.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sz.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\sz.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tc.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tc.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\td.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\td.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tf.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tf.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tg.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tg.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\th.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\th.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tj.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tj.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tk.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tk.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tl.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tl.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tm.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tm.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tn.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tn.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\to.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\to.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tr.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tr.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tt.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tt.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tv.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tv.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tw.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tw.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tz.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\tz.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ua.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ua.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ug.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ug.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\um.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\um.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\us.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\us.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\uy.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\uy.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\uz.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\uz.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\va.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\va.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\vc.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\vc.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ve.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ve.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\vg.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\vg.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\vi.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\vi.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\vn.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\vn.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\vu.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\vu.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\wf.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\wf.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ws.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ws.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ye.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\ye.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\yt.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\yt.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\za.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\za.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\zm.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\zm.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\flag-icon-css\\flags\\1x1\\zw.svg",
+      "PackagePath": "staticwebassets\\assets\\vendor\\flag-icon-css\\flags\\1x1\\zw.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\hs-navbar-vertical-aside\\dist\\hs-navbar-vertical-aside-mini-cache.js",
+      "PackagePath": "staticwebassets\\assets\\vendor\\hs-navbar-vertical-aside\\dist\\hs-navbar-vertical-aside-mini-cache.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\vendor\\icon-set\\style.html",
+      "PackagePath": "staticwebassets\\assets\\vendor\\icon-set\\style.html"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\video\\working-in-office.jpg",
+      "PackagePath": "staticwebassets\\assets\\video\\working-in-office.jpg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\assets\\video\\working-in-office.mp4",
+      "PackagePath": "staticwebassets\\assets\\video\\working-in-office.mp4"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\.gitignore",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\.gitignore"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\README.md",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\README.md"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\bower.json",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\bower.json"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\daterangepicker.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\demo.html",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\demo.html"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\drp.png",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\drp.png"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\example\\amd\\index.html",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\example\\amd\\index.html"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\example\\amd\\main.js",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\example\\amd\\main.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\example\\amd\\require.js",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\example\\amd\\require.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\example\\browserify\\README.md",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\example\\browserify\\README.md"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\example\\browserify\\bundle.js",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\example\\browserify\\bundle.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\example\\browserify\\index.html",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\example\\browserify\\index.html"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\example\\browserify\\main.js",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\example\\browserify\\main.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\moment.min.js",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\package.js",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\package.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\package.json",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\package.json"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\website\\index.html",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\website\\index.html"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\website\\website.css",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\website\\website.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\daterangepicker-master\\website\\website.js",
+      "PackagePath": "staticwebassets\\daterangepicker-master\\website\\website.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Pooja Gautam\\E-CommerceSite\\OnlineShopping\\OnlineShopping\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.OnlineShopping.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.OnlineShopping.Web.props",
+      "PackagePath": "build\\OnlineShopping.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.OnlineShopping.Web.props",
+      "PackagePath": "buildMultiTargeting\\OnlineShopping.Web.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.OnlineShopping.Web.props",
+      "PackagePath": "buildTransitive\\OnlineShopping.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
